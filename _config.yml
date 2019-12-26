@@ -3,7 +3,7 @@ name: Josh Holtz
 bio: Software engineer. Open source fanboy. <br/> Lead maintainer of <a href='https://github.com/fastlane/fastlane'>fastlane tools</a> <br/> Co-founder of <a href='https://rokkincat.com'>RokkinCat</a>
 
 # twitter summary info
-description: Lead maintainer of
+description: Software engineer. Open source fanboy. Lead maintainer of fastlane tools.
 
 # if it's an external image, update below for true
 # better with square images
@@ -16,7 +16,7 @@ picture: assets/images/profile.jpg
 #resume-external: true
 #resume-url: https://google.com/?q=my+resume
 
-url: https://joshholtz.com
+url: https://www.joshholtz.com
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
