@@ -9,7 +9,7 @@ tags:
 - meetup
 category: talks
 author: joshdholtz
-description: This was "Show & Tell" style talk about Josh's first macOS app, CrunchyGIF, which is the easiest way to convert screen recording to GIFs.
+description: This was Show & Tell style talk about Josh's first macOS app, CrunchyGIF, which is the easiest way to convert screen recording to GIFs.
 ---
 
 [View slides](/assets/talks/2020-01-28_NSCoderChicago_macos_crunchygif/crunchygif-show-and-tell.pdf)
