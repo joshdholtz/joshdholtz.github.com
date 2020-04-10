@@ -73,7 +73,12 @@ The finalized solution was this:
 
 Below is a screen recording of the results 🥰
 
-![Screen recording](/images/love2d_ios_screen_recording.mp4)
+<video width="100%" poster="/images/love2d_ios_screen_recording_poster.png" controls>
+  <source src="/images/love2d_ios_screen_recording.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+
 
 This new workflow ended up taking only about 20 or 30 seconds! That is a huge drop from the 10 minutes my initial attempt took. This workflow could be easier if I spent some time to make something with _Shortcuts_ but I did not get that far yet.
 
