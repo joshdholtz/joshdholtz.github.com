@@ -59,11 +59,32 @@ _This wasn’t bad though! I could work with this._
 
 I made some changes to the LÖVE iOS app. I added logic to move any `.love` files from the temporary directory to the `Documents` directory. And that was it! I installed these changes to my iPad from Xcode over the air. I went back to the _Files_ app to open my `.love` file into the iOS app and my game appeared in the list!
 
-_Now it was time to script this out to make it easier._
+_Now it's time to script this out to make it easier._
+
+I use [fastlane](https://docs.fastlane.tools) to make and distribute builds for all platforms of my project. So it made sense that I also use _fastlane_ to do this. Below is the lane I wrote to zip the source and move it over to iCloud Drive with a `.love` extension.
+
+```ruby
+lane :to_icloud do
+  # Zip source
+  zip_path = File.join(Dir.tmpdir, "game.zip")
+  FastlaneCore::Helper.zip_directory("../source", zip_path.shellescape,
+                                     contents_only: true, 
+                                     overwrite: true,
+                                     print: false)
+
+  # Generate path of .love file in iCloud Drive
+  icloud_dir = File.expand_path("~/Library/Mobile Documents/com~apple~CloudDocs/fishing-adventure")
+  love_file_name = "game-#{Time.new.strftime("%Y-%m-%d-%H%M")}.love"
+  love_path = File.join(icloud_dir, love_file_name)
+
+  # Copy from tmp to iCloud Drive
+  FileUtils.mv(zip_path, love_path)
+end
+```
 
 The finalized solution was this:
 
-1. Run a custom _fastlane_ lane which
+1. Run `fastlane to_icloud`
   2. Zips the source directory
   3. Rename with `.love` extension
   4. Moves it into iCloud with 
