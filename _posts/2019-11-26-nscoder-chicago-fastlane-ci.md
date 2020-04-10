@@ -2,7 +2,7 @@
 title: NSCoder Chicago - fastlane CI
 layout: post
 date: 2019-11-26 19:30:00
-image: /assets/images/markdown.jpg
+image: /assets/images/profile.jpg
 headerImage: false
 tags:
 - talk

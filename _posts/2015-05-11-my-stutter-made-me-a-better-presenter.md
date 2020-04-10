@@ -2,7 +2,7 @@
 title: My Stutter Made Me A Better Presenter
 layout: post
 date: 2015-05-11 23:30:00
-image: /assets/images/markdown.jpg
+image: /assets/images/profile.jpg
 headerImage: false
 tags:
 - stutter

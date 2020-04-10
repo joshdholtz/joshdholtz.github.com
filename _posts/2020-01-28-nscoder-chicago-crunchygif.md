@@ -2,7 +2,7 @@
 title: NSCoder Chicago - CrunchyGIF
 layout: post
 date: 2020-01-28 19:30:00
-image: /assets/images/markdown.jpg
+image: /assets/images/profile.jpg
 headerImage: false
 tags:
 - talk
