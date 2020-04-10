@@ -63,7 +63,7 @@ _Now it was time to script this out to make it easier._
 
 The finalized solution was this:
 
-1. Run a custom _fastlane_ line which
+1. Run a custom _fastlane_ lane which
   2. Zips the source directory
   3. Rename with `.love` extension
   4. Moves it into iCloud with 
