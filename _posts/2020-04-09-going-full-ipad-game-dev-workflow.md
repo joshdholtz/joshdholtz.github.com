@@ -2,7 +2,7 @@
 title: Going Full iPad - Game Dev Workflow
 layout: post
 date: 2020-04-09 23:30:00
-image: /assets/images/markdown.jpg
+image: /assets/images/profile.jpg
 headerImage: false
 tags:
 - ipad
