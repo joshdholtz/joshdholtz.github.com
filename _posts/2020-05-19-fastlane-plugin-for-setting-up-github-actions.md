@@ -19,9 +19,9 @@ View project on GitHub 👉 [fastlane-plugin-github_action](https://github.com/j
 
 As a long time user, consultant, and maintainer of _fastlane_, I’ve setup a lot of continuous integration (CI) servers over the years. I’ve used most of the major CI services (like CircleCI, TravisCI, and Bitrise) and they all have two things in common -- a lot of website clicking and a YAML file for configuration.
 
-Over the past few weeks I was tasked with setting up some projects on GitHub Actions. GitHub Actions is one of the newer CIs out there. Unlike most CIs, GitHub Actions isn’t the core product. Its a nicely integrated addition into repositories hosted on GitHub.
+Over the past few weeks I've been tasked with migrating and setting up new projects on GitHub Actions. GitHub Actions is one of the newer CIs out there. Unlike most CIs, GitHub Actions isn’t the core product. Its a nicely integrated addition into repositories already hosted on GitHub.
 
-The developer experience around GitHub Actions is very well done. Its feels seamless with the rest of GitHub’s interface. The setup process, however, felt similar to other CIs...
+The developer experience around GitHub Actions is very well done. Its feels seamless with the rest of GitHub’s interface. The setup process, however, felt similar to other CIs when configuring for _fastlane_. It requires a manual configuration for setting up SSH keys, a tedius secrets and environment variable input, and handwriting of a YAML file.
 
 ### The setup
 
