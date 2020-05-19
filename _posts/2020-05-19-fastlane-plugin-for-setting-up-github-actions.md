@@ -1,5 +1,5 @@
 ---
-title: fastlane plugin for setting up GitHub Actions
+title: Release Announcement - fastlane plugin for setting up GitHub Actions
 layout: post
 date: 2020-05-19 7:30:00
 image: /images/2020-05-19/github_action_output.jpeg
@@ -10,7 +10,7 @@ tags:
 - github
 category: blog
 author: joshdholtz
-description: 
+description: A new fastlane plugin for setting up GitHub Actions for running fastlane
 ---
 
 View project on GitHub 👉 [fastlane-plugin-github_action](https://github.com/joshdholtz/fastlane-plugin-github_action)
