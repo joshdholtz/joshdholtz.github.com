@@ -178,7 +178,10 @@ After running `github_actions`, the last step is to commit the generated `fastla
 
 Here is a screen recording of the entire process if you don’t believe me that this works 🙃
 
-_INSERT VIDEO_
+<video width="100%" poster="/images/2020-05-19/github_action_screen_recording_poster.jpeg" controls>
+  <source src="/images/2020-05-19/github_action_screen_recording.mov" type="video/mp4">
+Your browser does not support the video tag.
+</video>
 
 ## Let’s wrap it up
 
