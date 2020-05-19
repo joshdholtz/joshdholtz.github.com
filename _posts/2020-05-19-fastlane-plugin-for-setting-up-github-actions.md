@@ -2,8 +2,8 @@
 title: fastlane plugin for setting up GitHub Actions
 layout: post
 date: 2020-05-19 7:30:00
-image: /assets/images/profile.jpg
-headerImage: false
+image: /images/2020-05-19/github_action_output.jpeg
+headerImage: true
 tags:
 - fastlane
 - ci
@@ -174,7 +174,7 @@ jobs:
 
 After running `github_actions`, the last step is to commit the generated `fastlane.yml` file and push up to GitHub! I will also do this in a pull request so verify that everything is working. You should see GitHub Action output similar to the below image.
 
-_INSERT IMAGE_
+![GitHub Action Output Example](/images/2020-05-19/github_action_output.jpeg)
 
 Here is a screen recording of the entire process if you don’t believe me that this works 🙃
 
