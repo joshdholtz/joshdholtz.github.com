@@ -1,9 +1,9 @@
 # main text of home
 name: Josh Holtz
-bio: Software superstar. Stutter stud. <br/> Lead maintainer of <a href='https://github.com/fastlane/fastlane'>fastlane tools</a> <br/> Co-founder of <a href='https://rokkincat.com'>RokkinCat</a>
+bio: Software superstar. Stuttering stud. <br/> Lead maintainer of <a href='https://github.com/fastlane/fastlane'>fastlane tools</a> <br/> Co-founder of <a href='https://rokkincat.com'>RokkinCat</a>
 
 # twitter summary info
-description: Software superstar. Stutter stud. Lead maintainer of fastlane tools.
+description: Software superstar. Stuttering stud. Lead maintainer of fastlane tools.
 
 # if it's an external image, update below for true
 # better with square images
