@@ -118,13 +118,21 @@ This is not a Shortcut that I thought would be one of my favorites but... it is 
 
 This Shortcut will get cleaned up in the future when I get around to adding more actions that are specific for beta testers.
 
-[Get Shortcut here]()
+<video width="100%" controls>
+  <source src="/images/2020-11-24/send_testflight.MOV" type="video/mp4">
+Your browser does not support the video tag.
+</video>
 
 ### Submit App For Review
 
 This one is probably is not useful for most workflows but it was a fun “proof of concept” Shortcut. This Shortcut submits a version of your app for review. It doesn’t prompt for a build list, select latest build, or allow for entering of a change log but it _could_ in the future!
 
 I actually used this action to submit ConnectKit to the App Store for review... with Siri... over CarPlay 😈 Here is video of me using it! 
+
+<video width="100%" controls>
+  <source src="/images/2020-11-24/carplay.MOV" type="video/mp4">
+Your browser does not support the video tag.
+</video>
 
 ### Display Sales Reports Charty
 
@@ -134,7 +142,7 @@ ConnectKit would have been a decently useful app on its own before iOS 14 but iO
 
 In this example I took the daily and months sales report data from the “Get Sales Reports” action and piped it into Charty actions. I run this Shortcut once a day with automations so that my home screen has the latest sales information right on it 😎
 
-[Get Shortcut here]()
+![Charty](/images/2020-11-24/charty.PNG)
 
 ### Display Metadata In WidgetPack
 
@@ -144,4 +152,10 @@ I’ve made multiple Shortcuts for this one that also run on daily automations. 
 
 There are so many other metadata widgets that you could make but these were the two that were ideal for me 😝
 
-[Get Shortcut here]()
+![Charty](/images/2020-11-24/widgetpack.PNG)
+
+## ConnectKit's Future and Beyond
+
+I have no plan's to slow down on ConnectKit's feature set now that it got approved 😊 I held off on adding new actions similar to "Get Apps" while it was waiting for review but I'm starting back up on those actions now. I plan to add actions like "Get Beta Testers" and "Submit Version" as a few of my first set of additions but I would love to hear any feedback from you all on what you would like to see next! I built. this as a App Store Connect user and developer tool so I want to help you build your Shortcuts and automations.
+
+Feel free to tweet me ([@joshdholtz](https://twitter.com/joshdholtz)) or [@ConnectKitApp](https://twitter.com/connectkitapp) with any feedback, issues, or feature request! Let's celebrate the abilities that Apple gave us with the App Store Connect API 🥳
