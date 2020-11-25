@@ -17,6 +17,10 @@ description: The best way to use the App Store Connect API on iOS with easy to u
 
 **Happy launch day, ConnectKit** 🥳
 
+<a href="https://apps.apple.com/us/app/connectkit/id1534510889" target="_blank">
+  <img src="/images/Download_on_App_Store.svg"/>
+</a>
+
 <hr/>
 
 ## _What does ConnectKit do?_
@@ -159,3 +163,7 @@ There are so many other metadata widgets that you could make but these were the 
 I have no plan's to slow down on ConnectKit's feature set now that it got approved 😊 I held off on adding new actions similar to "Get Apps" while it was waiting for review but I'm starting back up on those actions now. I plan to add actions like "Get Beta Testers" and "Submit Version" as a few of my first set of additions but I would love to hear any feedback from you all on what you would like to see next! I built. this as a App Store Connect user and developer tool so I want to help you build your Shortcuts and automations.
 
 Feel free to tweet me ([@joshdholtz](https://twitter.com/joshdholtz)) or [@ConnectKitApp](https://twitter.com/connectkitapp) with any feedback, issues, or feature request! Let's celebrate the abilities that Apple gave us with the App Store Connect API 🥳
+
+<a href="https://apps.apple.com/us/app/connectkit/id1534510889" target="_blank">
+  <img src="/images/Download_on_App_Store.svg"/>
+</a>
