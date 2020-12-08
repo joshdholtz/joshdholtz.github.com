@@ -2,6 +2,8 @@
 title: "Building a Healthy Living Log with Scriptable"
 layout: post
 date: 2020-12-08 7:30:00
+image: /images/2020-12-08/widget.png
+headerImage: true
 category: blog
 author: joshdholtz
 description: I built a Healthy Living Log with Scriptable to track when I exercise and stretch
