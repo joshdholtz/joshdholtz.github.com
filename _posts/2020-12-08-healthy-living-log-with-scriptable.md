@@ -33,6 +33,12 @@ Here is my current implementation... 😈
 
 ## Demo
 
+There are three parts to this.
+
+1. Widget - displays a calendar-ish UI of days I exercised and stretched
+2. Logging Shortcut - menu shortcut that that store data and refreshes widget
+3. Automated Accountability Text - automated shortcut to text my coworkers whether I achieved my goals or not from the previous day
+
 ### Widget
 
 ![Widget Screenshot](/images/2020-12-08/widget.png)
