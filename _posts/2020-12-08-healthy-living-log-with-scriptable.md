@@ -23,17 +23,35 @@ I thankfully have an awesome group of coworkers that have formed a goal accounta
 
 I don’t remember who brought this up in my group but my group members were willing to get daily notifications of my workout status from the day before. Not only would this motivate me and hold me accountable but my group members would also use this to motivate them with their goals. My first attempt at doing this was through todos in Basecamp. We had a Basecamp project for our accountability group so I created a new task for each day for two weeks that I would checkoff when I worked out. This ended up working but I wanted a solution that was easier to use, more visible on my phone, and not tied to our company Basecamp.
 
-One of my group members told me to make an app but I had just recently come across Scriptable. I knew it was possible for me to make something with a script in Scriptable and combine it with some other Shortcuts.
+One of my group members told me to make an app but... I make too many of those and I didn't want to really support one another one 😆 I've been really into Shortcuts and widgets as of recent so I wanted decided that is how I wanted to make this. I knew I could make a simple menu system and store persistent data in a file but I wanted something a little more polished. 
 
-Here is my current implementation... 😊 
+I had luckily just discovered [Scriptable](https://scriptable.app) and [Data Jar](https://datajar.app) by [Simon](https://twitter.com/simonbs). Scriptable allows you you to automate and create custom widgets on iOS with Javascript and Shortcuts. Data Jar is a generic data storage for Shortcut. I knew I could just both of these to make what I wanted.
+
+Here is my current implementation... 😈
+
+## Demo
+
+### Widget
+
+![Widget Screenshot](/images/2020-12-08/widget.png)
+
+### Logging Shortcut
+
+<video width="100%" controls>
+  <source src="/images/2020-12-08/logging_shortcut.MOV" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+### Automated Accountability Text
+
+![Text Screenshot](/images/2020-12-08/text.png)
 
 ## Implementation with Scriptable and Data Jar
 
-I went through **a lot** of different implementations of this. My first version had four scripts and three shortcuts. It worked but I was not happy with it. What I have now is one widget script, one shortcut for logging my health activities, and one shortcut that runs on an automation for sending my activities to my coworkers.
+I went through **a lot** of different implementations of this. My first version had four scripts and three shortcuts. It worked but I was not happy with it. I now have one widget script, one shortcut for logging my health activities, and one shortcut that runs on an automation for sending my previous days activities to my coworkers.
 
 My requirements for this were:
-- Persistent data stored in iCloud
-	- Dates I’ve exercised and stretched
+- Persistent data stored in iCloud with dates I’ve exercised and stretched
 - Widget built from persistent data
 - Automated shortcut for notifying coworkers/friends my statuses from previous day
 
@@ -52,24 +70,22 @@ That data format I’m storing looks like this:
 }
 ```
 
-I tried a few different methods for storing my data. I split them into multiple files that were stored in Scriptable iCloud Drive at first. It worked but it forced me to have multiple and more complex scripts for reading and writing that data both of my logging shortcut and my automated shortcut. I really wanted to only use Data Jar but I couldn’t find a way to load Data Jar directly from my widget script. I ended up using a combination of Data Jar and a file stored in Scriptable’s iCloud Drive.
-
 Data Jar is my primary storage. It offers easy to shortcuts, viewing and editing of data in app, and syncing of data over iCloud. Both of my shortcuts fetch and update my data with Data Jar.
 
-The biggest problem I faced with choosing Data Jar was getting this data in a persistent place for Scriptable widgets to use. Scriptable does not have an API for accessing the data in Data Jar. I needed to not only pass the data into my widget somehow but I also needed the widget to store the data in a place where it could access it.
+One of the problems I faced with using Data Jar was no Data Jar integration inside of Scriptable. I was thinking that Scriptable would have an API to fetch data from Data Jar but it does not 🤷‍♂️ That didn't end up being too much of a problem though. In my Shortcut, I ended up passing the data from Data Jar into my Scriptable widget through a parameter. The Scriptable script will then cache that data passed in as a parameter and save it to Scriptable's iCloud Drive. This cached data is only ever used as a read only by the widget.
 
-It took me too long to realize that my problem was also my solution 😊 My workflow looks like this:
+### Logging Shortcut
+
+My logging shortcut is really just a series of menus that adds/updates values in a dictionary. That dictionary is then stored in Data Jar and passed as a parameter into the Scriptable Widget.
+
+My Shortcut essentially looks like this:
 
 1. Logging shortcut reads and updates data with Data Jar
 2. Passes Data Jar data as a parameter into my widget script
 3. Widget script write data to a file in the Scriptable iCloud drive
 4. Widget UI is driven off of this file in the Scriptable iCloud drive
 
-### Logging Shortcut
-
-My logging shortcut is really just a series of menus that adds/updates values in a dictionary. That dictionary is then stored in Data Jar and passed as a parameter into the Scriptable Widget.
-
-[Install Shortcut](https://www.icloud.com/shortcuts/0d9a4a543d4b45cb9e6f3a9178a5017f)
+[Install Shortcut](https://www.icloud.com/shortcuts/962ad0ba01da43b098eddbb3ce9390be)
 
 ⚠ Due to some OS issues, the Scriptable widget needs to be opened in Scriptable to refresh. Widgets are struggling to refresh from Shortcuts.
 
@@ -96,15 +112,15 @@ My accountability shortcut reads the values from Data Jar to see if I exercised 
 
 There isn’t really much to it besides that 😇 You could easily change up the text part to an email or a tweet or whatever works best for you!
 
-[Install Shortcut](https://www.icloud.com/shortcuts/211b17cf211a4eeeb80ccd92fcf038b5)
+[Install Shortcut](https://www.icloud.com/shortcuts/7a8e8bfa63674e2c9c50beee47ff3a51)
 
 ## Final Thoughts and Future Plans
 
-I’ve been using this for about four weeks now and I’m super happy with the results! The Shortcut is easy to use, the widget is better looking than I thought, and the automated shortcut makes sure my coworkers now even when I failed.
+I’ve been using this for about four weeks now and I’m super happy with the results! The Shortcut is easy to use and the widget is better looking than I thought. The automated text that gets sent to my coworkers is working out great. There is not really an easy way for me to not send that it drives me to keep working out. That little bit of added peer pressure really does help 🙃 
 
-The best part though is I had a really fun time using Scriptable 🙂 I knew Scriptable was something I would enjoy but I was slightly unsure what I could use it for and intimidated at how to start. It turns out... I had no reason to be intimidated. There are plenty of examples that I used when I got stuck at something. The docs are right there in the editor and are very easy to use and search for. There was also plenty of resources on the internet for me to go to for any other questions I’ve had. I ended up finding things on a forum and Reddit that answered some of my questions.
+Although, the best part is that I just really had fun time using Scriptable 🙂 I knew Scriptable was something I would enjoy but I was slightly unsure what I could use it for and a little intimidated at how to start. It turns out... I had no reason to be intimidated. There are plenty of examples to reference for inspiration. The docs are in the editor and are very easy to use. Support is also just an email away and very responsive if you run into anything that weird!
 
-I will definitely be keeping my healthy living log updated going forward. I’ll be trying to make it work for multiple widget sizes and maybe a little bit more dynamic so I can track more things or change up what I’m tracking.
+I will definitely be keeping my healthy living log updated going forward. I’ll be modifying it to work for multiple widget sizes and track more/other things.
 
 Feel free to tweet me at [@joshdholtz](https://twitter.com/joshdholtz) if you have any questions or suggestions on what I’ve written!
 
