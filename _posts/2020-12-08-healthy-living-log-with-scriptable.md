@@ -99,9 +99,14 @@ My Shortcut essentially looks like this:
 
 ⚠ Due to some OS issues, the Scriptable widget needs to be opened in Scriptable to refresh. Widgets are struggling to refresh from Shortcuts.
 
+<video width="100%" controls>
+  <source src="/images/2020-12-08/shortcut_actions_log.MP4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
 ### Widget Script
 
-Scriptable’s app and API is so so nice but my javascript is not 😛 This script doesn’t feel too magical but there is a lot of weird things that I think I had to do. It might not be weird but I really don’t do javascript very often 🤷‍♂️
+Scriptable’s app and API is so so nice but my javascript is not 😛 My script coudl be improved in so many ways but it works for now. Below is the high level workflow along with a gist.
 
 - Write data to iCloud Drive (if passed in from Shortcut)
 - Reads data from iCloud Drive
@@ -123,6 +128,11 @@ Feel free to suggest any updates/improvements! I’d be happy to incorporate and
 My accountability shortcut reads the values from Data Jar to see if I exercised and stretched the previous day and then send that in a text message to my coworkers.
 
 There isn’t really much to it besides that 😇 You could easily change up the text part to an email or a tweet or whatever works best for you!
+
+<video width="100%" controls>
+  <source src="/images/2020-12-08/shortcuts_actions_text.mov" type="video/mp4">
+Your browser does not support the video tag.
+</video>
 
 <hr/>
 
