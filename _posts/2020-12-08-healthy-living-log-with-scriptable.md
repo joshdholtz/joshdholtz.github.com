@@ -29,6 +29,8 @@ I had luckily just discovered [Scriptable](https://scriptable.app) and [Data Jar
 
 Here is my current implementation... 😈
 
+<hr/>
+
 ## Demo
 
 ### Widget
@@ -45,6 +47,8 @@ Your browser does not support the video tag.
 ### Automated Accountability Text
 
 ![Text Screenshot](/images/2020-12-08/text.jpg)
+
+<hr/>
 
 ## Implementation with Scriptable and Data Jar
 
@@ -76,6 +80,8 @@ One of the problems I faced with using Data Jar was no Data Jar integration insi
 
 ### Logging Shortcut
 
+👉 [Install Shortcut](https://www.icloud.com/shortcuts/962ad0ba01da43b098eddbb3ce9390be)
+
 My logging shortcut is really just a series of menus that adds/updates values in a dictionary. That dictionary is then stored in Data Jar and passed as a parameter into the Scriptable Widget.
 
 My Shortcut essentially looks like this:
@@ -84,8 +90,6 @@ My Shortcut essentially looks like this:
 2. Passes Data Jar data as a parameter into my widget script
 3. Widget script write data to a file in the Scriptable iCloud drive
 4. Widget UI is driven off of this file in the Scriptable iCloud drive
-
-[Install Shortcut](https://www.icloud.com/shortcuts/962ad0ba01da43b098eddbb3ce9390be)
 
 ⚠ Due to some OS issues, the Scriptable widget needs to be opened in Scriptable to refresh. Widgets are struggling to refresh from Shortcuts.
 
@@ -108,11 +112,13 @@ Feel free to suggest any updates/improvements! I’d be happy to incorporate and
 
 ### Automated Accountability Shortcut
 
+👉 [Install Shortcut](https://www.icloud.com/shortcuts/7a8e8bfa63674e2c9c50beee47ff3a51)
+
 My accountability shortcut reads the values from Data Jar to see if I exercised and stretched the previous day and then send that in a text message to my coworkers.
 
 There isn’t really much to it besides that 😇 You could easily change up the text part to an email or a tweet or whatever works best for you!
 
-[Install Shortcut](https://www.icloud.com/shortcuts/7a8e8bfa63674e2c9c50beee47ff3a51)
+<hr/>
 
 ## Final Thoughts and Future Plans
 
