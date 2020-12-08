@@ -46,7 +46,7 @@ There are three parts to this.
 ### Logging Shortcut
 
 <video width="100%" controls>
-  <source src="/images/2020-12-08/logging_shortcut.MOV" type="video/mp4">
+  <source src="/images/2020-12-08/logging_shortcut.MP4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
