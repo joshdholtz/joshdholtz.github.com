@@ -44,7 +44,7 @@ Your browser does not support the video tag.
 
 ### Automated Accountability Text
 
-![Text Screenshot](/images/2020-12-08/text.png)
+![Text Screenshot](/images/2020-12-08/text.jpg)
 
 ## Implementation with Scriptable and Data Jar
 
