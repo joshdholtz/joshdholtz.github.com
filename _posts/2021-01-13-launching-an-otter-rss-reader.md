@@ -45,7 +45,7 @@ So I did and here we are. It's launch day!
 
 ## _Why is it free?_
 
-I made this app for me! I made it as a learning experience and for something I would personally use. I don't want the pressure of having a paid app to make it what users want 🤷‍♂️ But I do care what users thinkg and what so I will take feature requests and bug reports seriously 😉
+I made this app for me! I made it as a learning experience and for something I would personally use. I don't want the pressure of having a paid app to make it what users want 🤷‍♂️ But I do care what users thinking and what so I will take feature requests and bug reports seriously 😉
 
 There **is** an in-app payment for **tipping the developer** _if_ users want to do so. The in-app payment gets the user my eternal love, alternative app icons, and some new app color themes (coming in a future version). It's not much and not functionality that is needed for the app. But I did want the app to be free with all the RSS features!
 
