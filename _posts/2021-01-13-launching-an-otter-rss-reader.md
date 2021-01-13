@@ -25,7 +25,7 @@ description: The most okayest and minimalistic RSS reader on iOS and macOS
 
 ## _Why did you make An Otter RSS?_
 
-I was developing another in July of 2020. This app was my first app built completely in SwiftUI. I was ending reading a lot of Swift and SwiftUI blogs since I didn't really know what I was doing at the time. I realized I wanted to keep up with all the blogs I was finding. I've never been a big RSS reader but this seemed like the time to get into it. I wasn't going to be a power user so I wasn't looking to pay for anything that required a subscription. But I _did_ want my feeds to sync between my iPhone, iPad, and Mac. It turns out (at that time) I couldn't find one that I liked.
+I was developing another app in July of 2020. This app was my first app built completely in SwiftUI. I was ending reading a lot of Swift and SwiftUI blogs since I didn't really know what I was doing at the time. I realized I wanted to keep up with all the blogs I was finding. I've never been a big RSS reader but this seemed like the time to get into it. I wasn't going to be a power user so I wasn't looking to pay for anything that required a subscription. But I _did_ want my feeds to sync between my iPhone, iPad, and Mac. It turns out (at that time) I couldn't find one that I liked.
 
 **So I decided to make my own 😜**
 
