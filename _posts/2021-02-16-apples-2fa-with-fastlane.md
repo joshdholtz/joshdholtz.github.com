@@ -2,8 +2,8 @@
 title: "How Apple’s Upcoming Two-Step/Two-Factor Enforcement Could Affect Your fastlane Experience"
 layout: post
 date: 2021-02-16 7:30:00
-_image: /images/2020-12-08/widget.png
-_headerImage: true
+image: /images/2021-02-15/fastlane_2fa.png
+headerImage: true
 category: blog
 author: joshdholtz
 description: 
