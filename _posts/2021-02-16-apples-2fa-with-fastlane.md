@@ -17,6 +17,15 @@ Also, note that this is blog post is not critiquing or complaining about the enf
 
 We good? Let’s get started.
 
+- [Introduction](#introdoctuion)
+- [Comparing "two-step verification" vs "two-factor authentication"?](#comparing-two-step-verification-vs-two-factor-authentication)
+- [So... Will this affect you?](#so-will-this-affect-you)
+  - [Do you already have an Apple ID account with 2SV/2FA enabled?](#do-you-already-have-an-apple-id-account-with-2sv2fa-enabled)
+  - [Do you use Xcode and the App Store Connect website?](#do-you-use-xcode-and-the-app-store-connect-website)
+  - [Do you run <em>fastlane</em> locally?](#do-you-run-fastlane-locally)
+  - [Do you run <em>fastlane</em> on a CI?](#do-you-run-fastlane-on-a-ci)
+- [Other Changes You Might Need To Make](#other-changes-you-might-need-to-make)
+
 <hr/>
 
 ## Introduction
