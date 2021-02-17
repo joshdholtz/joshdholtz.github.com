@@ -169,7 +169,7 @@ You could also move this to a job that just gets run locally whenever you start 
 
 Or maybe... maybe you don’t even need bitcode?! If you disable bitcode, you can use the dSYMs directly from your Xcode build. Now you don’t even need to worry about `download_dsyms` action 🤷‍♂️
 
-https://twitter.com/steipete/status/1360535259905990657?s=21
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Just disable bitcode. It has no measurable benefits. (Also, generated dSYMs are often broken/incomplete)</p>&mdash; Peter Steinberger (@steipete) <a href="https://twitter.com/steipete/status/1360535259905990657?ref_src=twsrc%5Etfw">February 13, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### #2: Do you even need Apple ID or App Store Connect API Key?
 
