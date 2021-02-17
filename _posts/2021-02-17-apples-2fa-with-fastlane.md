@@ -13,7 +13,7 @@ description:
 
 This blog post is 100% my thoughts and opinions. It does not reflect _fastlane_’s or Google’s thoughts and opinions.
 
-Also, note that this is blog post is not critiquing or complaining about the enforcement of two-step/two-factor. This blog post is only here to help users understand how they could be affected and the options they have.
+Also, note that this blog post is not critiquing or complaining about the enforcement of two-step/two-factor. This blog post is only here to help users understand how they could be affected and the options they have.
 
 We good? Let’s get started.
 
