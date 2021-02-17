@@ -25,6 +25,7 @@ We good? Let’s get started.
   - [Do you run <em>fastlane</em> locally?](#do-you-run-fastlane-locally)
   - [Do you run <em>fastlane</em> on a CI?](#do-you-run-fastlane-on-a-ci)
 - [Other Changes You Might Need To Make](#other-changes-you-might-need-to-make)
+- [If you REALLY need Two-Step Authentication on CI… there are ways 😈](#if-you-really-need-two-step-authentication-on-ci-there-are-ways-)
 
 <hr/>
 
