@@ -1,5 +1,5 @@
 ---
-title: "Preview: Garagmel - A non-opinionated GitHub monitoring dashboard powered by YAML"
+title: "Preview: Gargmel - A non-opinionated GitHub monitoring dashboard powered by YAML"
 layout: post
 date: 2021-03-15 7:30:00
 image: /images/2021-03-15/1-fastlane.png
