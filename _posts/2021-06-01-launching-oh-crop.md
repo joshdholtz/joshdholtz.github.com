@@ -10,10 +10,8 @@ tags:
 - annoucement
 category: blog
 author: joshdholtz
-description: The most okayest and minimalistic RSS reader on iOS and macOS
+description: iOS app for cropping photos to the shape of emojis
 ---
-
-# Launch Announcement: Oh Crop for iOS
 
 I’ve teased this app for about a month now. I even made [a teaser for a teaser](https://twitter.com/joshdholtz/status/1388148055124463617) which I was slightly embarrassed by it seemed like something fun to try 🙈 But today is the day…
 
