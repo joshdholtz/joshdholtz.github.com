@@ -30,6 +30,7 @@ I’ve teased this app for about a month now. I even made [a teaser for a teaser
 <img src="/images/2021-06-01/josh_heart.png" width="200">
 <img src="/images/2021-06-01/josh_wave.png" width="200">
 <img src="/images/2021-06-01/josh_crab.png" width="200">
+<img src="/images/2021-06-01/josh_snow.png" width="200">
 
 ## _Why did you make Oh Crop?_
 
