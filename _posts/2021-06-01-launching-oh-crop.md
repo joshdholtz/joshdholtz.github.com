@@ -23,6 +23,12 @@ I’ve teased this app for about a month now. I even made [a teaser for a teaser
 
 <hr/>
 
+## _What is Oh Crop?_
+
+**Oh Crop** is an iOS app that will crop a photo to look like an emoji 👇
+
+<img src="/images/2021-06-01/josh_heart.png" width="200">
+
 ## _Why did you make Oh Crop?_
 
 To be honest… the scope of this app got out of control quickly.
