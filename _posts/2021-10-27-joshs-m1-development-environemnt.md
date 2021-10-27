@@ -19,7 +19,7 @@ TL;DR - The problem was not homebrew or any other tools. I was my weird setup an
 
 ## The YouTube Format
 
-There is a YouTube format of this blog post on my [YouTube channel](https://youtube.com/joshdholtz) over at [https://youtu.be/EG-K5n20_HQ](https://youtu.be/EG-K5n20_HQ) 👀
+There is a YouTube format of this blog post on my [YouTube channel](https://youtube.com/joshdholtz) over at [https://youtu.be/EG-K5n20_HQ](https://youtu.be/EG-K5n20_HQ) 👀	
 
 ## The Problem
 
@@ -98,7 +98,6 @@ else
   echo "Running in ARM mode (M1)"
   eval "$(/opt/homebrew/bin/brew shellenv)"
   alias brew='/opt/homebrew/bin/brew'
-  #export ARCHFLAGS="-arch x86_64"
 fi
 ```
 
@@ -130,6 +129,12 @@ asdf plugin add ruby
 asdf install ruby latest
 asdf global ruby latest
 ```
+
+### But why separate Homebrew installs?
+
+Great question! Most things (that I use) through Homebrew will work perfectly fine on M1 (arm64). However, there are some tools that you need to compile or install that won't work. We can test this out with Python 2.7.18. Running `asdf install python 2.7.18` will fail due to architecture issues on M1. But if you change to Rosetta (using `izsh`) and run `asdf install python 2.7.18`, it will succeed 🥳 And now that Python 2.7.18 is compiled and installed from Rosetta, you can actually use it when you are back in M1 (arm64). Just switch back over with `mzsh` and run `python` you will see! (But don't forget to run `asdf global python 2.7.18` or `asdf local python 2.7.18` first).
+
+Why does this work on M1 (arm64) even though you needed Rosetta for it? Well... here is my understanding of it 😇 Jumping into Rosetta to compile and install it essentially makes an M1/arm64 installation of it _after_ it compiles in the i386 architecture. The M1 Mac don't have an Intel processor so everything needs to get to an M1 format somehow. So with this above example, we only need Rosetta for the compile and install phase. Now Python 2.7.18 will work anywhere for us!
 
 ## The End
 
