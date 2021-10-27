@@ -17,6 +17,10 @@ This post will briefly show how I have my M1 Mac setup to handle homebrew, zsh, 
 
 TL;DR - The problem was not homebrew or any other tools. I was my weird setup and misunderstanding of how M1 and Rosetta worked 🤷‍♂️
 
+## The YouTube Format
+
+There is a YouTube format of this blog post on my [YouTube channel](https://youtube.com/joshdholtz) over at https://youtu.be/EG-K5n20_HQ
+
 ## The Problem
 
 I was having mad issues with my develoment environment. Ruby was having issues installing native extensions. Homebrew was having more and more issues installing dependencies for unknown reasons (to me).
