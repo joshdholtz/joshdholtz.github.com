@@ -19,7 +19,7 @@ TL;DR - The problem was not homebrew or any other tools. I was my weird setup an
 
 ## The YouTube Format
 
-There is a YouTube format of this blog post on my [YouTube channel](https://youtube.com/joshdholtz) over at https://youtu.be/EG-K5n20_HQ
+There is a YouTube format of this blog post on my [YouTube channel](https://youtube.com/joshdholtz) over at [https://youtu.be/EG-K5n20_HQ](https://youtu.be/EG-K5n20_HQ) 👀
 
 ## The Problem
 
