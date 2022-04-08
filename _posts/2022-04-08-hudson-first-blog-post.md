@@ -30,4 +30,4 @@ wqwssswssssiiiioiioilz
 
 xxcx cxztfdxzzdsxzfdxΩxçcv ezxcxvc≈ 
 
-<img src="/images/2022-04-08/hudson.jpeg" width="300">
+<img src="/images/2022-04-08/hudson2.jpeg" width="300">
