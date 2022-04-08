@@ -8,6 +8,7 @@ author: joshdholtz
 description: I gave Hudson my computer to type up his first blog post
 ---
 
+> I gave Hudson my computer to type up his first blog post 🤷‍♂️
 
 ## Hudson's First Blog Post
 
@@ -28,3 +29,5 @@ wqwssswssssiiiioiioilz
     dxzxdf````````````````zzz n ham   vcxx/.v bnm,a	
 
 xxcx cxztfdxzzdsxzfdxΩxçcv ezxcxvc≈ 
+
+<img src="/images/2022-04-08/hudson.jpeg" width="300">
