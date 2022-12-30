@@ -6,15 +6,19 @@
             </li>
         {% endif %}
 
-        {% if site.blog == true %}
-            {% if page.title != "Blog" %}
-                <li class="item">
-                    <a class="link" href="{{ site.url }}/blog">Blog</a>
-                </li>
-            {% endif %}
+        {% if page.title != "Blog" %}
+            <li class="item">
+                <a class="link" href="{{ site.url }}/blog">Blog</a>
+            </li>
         {% endif %}
 
-        {% if site.blog == true %}
+        {% if page.title != "Blog" %}
+            <li class="item">
+                <a class="link" style="width: inherit;" href="{{ site.url }}/dev-journal-2023">2023 Dev Journal</a>
+            </li>
+        {% endif %}
+
+        <!-- {% if site.blog == true %}
             {% if page.title != "Talks" %}
                 <li class="item">
                     <a class="link" href="{{ site.url }}/talks">Talks</a>
@@ -28,15 +32,15 @@
                     <a class="link" href="{{ site.url }}/projects">Projects</a>
                 </li>
             {% endif %}
-        {% endif %}
+        {% endif %} -->
 
-        {% if site.about == true %}
+        <!-- {% if site.about == true %}
             {% if page.title != "About" %}
                 <li class="item">
                     <a class="link" href="{{ site.url }}/about">About</a>
                 </li>
             {% endif %}
-        {% endif %}
+        {% endif %} -->
 
         {% if site.resume == true %}
             <li class="item">
