@@ -30,7 +30,7 @@ This looks like a lot to write down every day so I'm telling myself right now th
 I don't know what the goal of sharing this publicly is yet. I think sharing this publicly will boost my motivation to keep these going but I'm not sure what any of you will take from these daily journal entries. Hopefully, we can figure that out together as 2023 progresses 😊 
 
 The projects I'll be working on (but not limited to) are:
-- [fastlane](https://github.com/fastlane/fastlane)
+- _[fastlane](https://github.com/fastlane/fastlane)_
 - [Playpen](https://twitter.com/playpenapp)
 - [Deep Dish Swift](https://deepdishswift.com/) _(It's a conference but its a side project)_
 - [Indie Dev Monday](https://indiedevmonday.com/) _(It's a newsletter but its a side project)_
