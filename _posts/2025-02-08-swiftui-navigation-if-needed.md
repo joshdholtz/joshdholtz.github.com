@@ -15,7 +15,7 @@ _Taps microphone_
 
 Is this thing on?
 
-Okay wow, it's been nearly 2 years since I last wrote a blog post. I would normaly say here that I've been meaning to write more blog posts but that would be a lie. I already get myself into too much trouble working on other things 😅
+Okay wow, it's been nearly 3 years since I last wrote a blog post. I would normaly say here that I've been meaning to write more blog posts but that would be a lie. I already get myself into too much trouble working on other things 😅
 
 Are you new here? Wondering what those thigns are?
 
