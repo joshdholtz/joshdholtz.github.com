@@ -1,11 +1,14 @@
 ---
-title: SwiftUI - Navigation If Needed
+title: SwiftUI - Navigation View If Needed
 layout: post
 date: 2025-02-08 06:00:00
 image: /images/2025-02-08/header.png
 headerImage: true
 tags:
     - swiftui
+    - navigation
+    - hacks
+    - fun
 category: blog
 author: joshdholtz
 description: I needed a way to add a toolbar in a view in SwiftUI without knowing if that view came from a navigation stack or not.
