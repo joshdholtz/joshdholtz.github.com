@@ -196,7 +196,7 @@ struct ContentView: View {
 
 ### Video Proof
 
-<video width="100%" poster="/images/2025-02-08/navigation-if-needed-demo.mp4" controls>
+<video width="100%" poster="/images/2025-02-08/navigation-if-needed-demo.png" controls>
   <source src="/images/2025-02-08/navigation-if-needed-demo.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
