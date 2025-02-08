@@ -22,7 +22,7 @@ url: https://www.joshholtz.com
 permalink: /:categories/:year/:month/:day/:title:output_ext
 
 # To enable google analytics, supply your token below
-analytics-google: 'UA-31104667-2'
+analytics-google: "UA-31104667-2"
 
 # To enable piwik tracking, supply your url & site ID below
 # analytics-piwik-url: 'piwik.my-host.com'
@@ -30,9 +30,9 @@ analytics-google: 'UA-31104667-2'
 
 # if you don't want comments in your posts, leave categories empty
 disqus:
-  shortname: mydisqus # enter this from your disqus account
-  #categories: [blog, project] # only show disqus for posts that have these categories
-  categories: []
+    shortname: mydisqus # enter this from your disqus account
+    #categories: [blog, project] # only show disqus for posts that have these categories
+    categories: []
 
 # if you don't have any of social below, comment the line
 facebook: josh.holtz
@@ -97,24 +97,24 @@ show-author: true
 animation: true
 
 plugins:
-  - jekyll-seo-tag
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-admin
+    - jekyll-seo-tag
+    - jekyll-gist
+    - jekyll-feed
+    - jemoji
 
 jekyll-mentions:
     base_url: https://github.com
 
 feed:
-  categories:
-    - blog
-    - dev-journal-2023
+    categories:
+        - blog
+        - dev-journal-2023
 
 compress_html:
     ignore:
         envs:
-        - development
-        - stage
+            - development
+            - stage
 
-exclude: ["travis.sh", "Rakefile", "README.md", "Gemfile", "Gemfile.lock", "FAQ.md"]
+exclude:
+    ["travis.sh", "Rakefile", "README.md", "Gemfile", "Gemfile.lock", "FAQ.md"]
