@@ -20,7 +20,7 @@ Is this thing on?
 
 Okay wow, it's been nearly 3 years since I last wrote a blog post. I would normaly say here that I've been meaning to write more blog posts but that would be a lie. I already get myself into too much trouble working on other things 😅
 
-Are you new here? Wondering what those thigns are?
+Are you new here? Wondering what those things are?
 
 The projects I’ll be working on (but not limited to) are:
 
@@ -129,7 +129,7 @@ struct NoInNavigationView: View {
 
 `.onAppear` was a total lie. It actually isn't when the view visually appears. I guess its when the view is in some sort of UI hierarchy (not a SwiftUI expert here so take this for what it's worth).
 
-I did soem more ~~Googling~~ ~~StackOverflowing~~ AI-ing and I found I could detect if a view appeared by using the `@Environment(\.isPresented)` environment variable.
+I did some more ~~Googling~~ ~~StackOverflowing~~ AI-ing and I found I could detect if a view appeared by using the `@Environment(\.isPresented)` environment variable.
 
 It turns out... this was exactly what I wanted. I ended up creating a navigation detector! 🥳 But like... one that would only tell me if it it detected a navigation view through a print statement 😛 But hey, I could build upon this.
 
@@ -328,7 +328,7 @@ struct ContentView: View {
 
 ## The End
 
-This is what it is. Code does what it does. There are guaranteed edge cases in this. The implementation of of `.toolbar` and `@Environment(\.isPresented)` could change from underneith me.
+This is what it is. Code does what it does. There are guaranteed edge cases in this. The implementation of `.toolbar` and `@Environment(\.isPresented)` could change from underneith me.
 
 But I enjoyed problem solving this and I'm don't hate the solution. I've written worse code 🙃
 
