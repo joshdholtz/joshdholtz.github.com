@@ -12,6 +12,8 @@ tags:
 category: blog
 author: joshdholtz
 description: I needed a way to add a toolbar in a view in SwiftUI without knowing if that view came from a navigation stack or not.
+redirect_from:
+    - /blog/2025/02/08/swiftui-navigation-if-needed
 ---
 
 _Taps microphone_
