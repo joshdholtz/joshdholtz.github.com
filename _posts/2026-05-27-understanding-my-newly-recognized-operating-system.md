@@ -1,7 +1,8 @@
 ---
 title: Understanding my newly recognized operating system
 layout: post
-date: 2026-05-27 06:00:00
+date: 2026-05-27 09:00:00 -0500
+image: /images/2026-05-27/header.jpg
 tags:
     - life
     - adhd
@@ -10,26 +11,28 @@ tags:
     - mentalhealth
 category: blog
 author: joshdholtz
-description: For 34 years, JoshHoltz.app ran on an operating system I didn't fully understand. This week, I finally got a diagnosis that made the whole system architecture make sense.
+description: For 34 years, <a href="https://joshholtz.app" target="_blank">JoshHoltz.app</a> ran on an operating system I didn't fully understand. This week, I finally got a diagnosis that made the whole system architecture make sense.
 ---
 
-I've always known the operating system JoshHoltz.app runs on was a little different.
+I've always known the operating system <a href="https://joshholtz.app" target="_blank">JoshHoltz.app</a> runs on was a little different.
 
 Throughout my life, I unconsciously tuned the way I live for the "best" version of Josh. The environments I work in. The tools I obsess over. The routines I keep. The way I recover after social events. The way I hyperfocus. The way I burn out.
 
 But I never fully understood why.
 
-For most of my life, I assumed JoshHoltz.app was running the standard neurotypical operating system. And honestly? For 34 years, things mostly held together.
+For most of my life, I assumed <a href="https://joshholtz.app" target="_blank">JoshHoltz.app</a> was running the standard neurotypical operating system. And honestly? For 34 years, things mostly held together.
 
 Until they didn't.
 
 Recently, the system started crashing harder and harder. Reboot loops. Overclocking. Total freezes. Patch after patch that only made things worse. Something underneath everything wasn't operating the way I thought it was.
 
-And this week, I finally confirmed something I think part of me has probably always known:
+<a href="https://joshholtz.app" target="_blank">JoshHoltz.app</a> is not running a neurotypical operating system.
 
-JoshHoltz.app is not running a neurotypical operating system.
+And this week, I finally got confirmation of something I think part of me has probably always known.
 
-> I was officially diagnosed with AuDHD (autism + ADHD).
+<blockquote class="pullquote">"I was officially diagnosed with AuDHD (autism + ADHD)."</blockquote>
+
+![Anxiety vs Autism + ADHD](/images/2026-05-27/header.jpg)
 
 Suddenly, decades of seemingly disconnected behaviors, struggles, sensitivities, coping mechanisms, hyperfixations, burnout cycles, and "quirks" started resolving into a system diagram that finally made sense.
 
@@ -66,9 +69,9 @@ More simultaneous processes running all the time.
 
 And it became much harder to maintain the highly regulated systems and routines I had unconsciously built for myself over the years.
 
-Systems I didn't realize I *deeply* depended on to keep JoshHoltz.app stable.
+Systems I didn't realize I *deeply* depended on to keep <a href="https://joshholtz.app" target="_blank">JoshHoltz.app</a> stable.
 
-## The bad breaking version update
+## The breaking change
 
 Around September-ish of last year (2025), I decided it was time for a major version update of myself.
 
@@ -128,6 +131,8 @@ But so did everything else.
 The meds didn't just mute external noise.  
 They muted *me*.
 
+<blockquote class="pullquote">"The meds didn't just mute external noise. They muted me."</blockquote>
+
 I became way too relaxed.  
 Way too sleepy.  
 Way too emotionally flat.
@@ -162,7 +167,7 @@ The second week was slightly better, but still deeply not me.
 
 Eventually I needed to take a third week off work.
 
-THIS IS VERY NOT JoshHoltz.app.
+THIS IS VERY NOT <a href="https://joshholtz.app" target="_blank">JoshHoltz.app</a>.
 
 Honestly, writing this part now still kind of scares me.
 
@@ -174,7 +179,7 @@ That was the moment I realized this "major version improvement" I had been chasi
 
 I had over-engineered in the completely wrong direction.
 
-This wasn't the right future for JoshHoltz.app.
+This wasn't the right future for <a href="https://joshholtz.app" target="_blank">JoshHoltz.app</a>.
 
 My next therapy appointment needed to go very differently.
 
@@ -334,8 +339,8 @@ But the bigger conversations ended up being around:
 
 And then came the final conclusions:
 
-1. Primary autism
-2. Secondary ADHD
+> 1. Primary autism
+> 2. Secondary ADHD
 
 I was so relieved to finally have an answer.
 
@@ -367,7 +372,7 @@ But autism explained the *structure underneath everything*:
 - why I obsess over reducing friction in workflows
 - why I need recovery after high-output events
 - why I communicate better through systems than raw emotion
-- why I've spent most of my life designing environments that help stabilize JoshHoltz.app
+- why I've spent most of my life designing environments that help stabilize <a href="https://joshholtz.app" target="_blank">JoshHoltz.app</a>
 
 It also explained something I had never fully understood about myself:
 
@@ -375,13 +380,15 @@ I don't just like systems.
 
 I depend on them.
 
+<blockquote class="pullquote">"I don't just like systems. I depend on them."</blockquote>
+
 And when enough of those systems break at once, the operating system underneath starts overheating fast.
 
-## The beta of JoshHoltz.app 2.0
+## The beta of <a href="https://joshholtz.app" target="_blank">JoshHoltz.app</a> 2.0
 
 So… this is where I'm at today.
 
-I'm fully off the medication now, minus a few lingering brain zappies here and there, and I feel like I'm back to the version of JoshHoltz.app that somehow managed to work surprisingly well for 34 years under very specific conditions.
+I'm fully off the medication now, minus a few lingering brain zappies here and there, and I feel like I'm back to the version of <a href="https://joshholtz.app" target="_blank">JoshHoltz.app</a> that somehow managed to work surprisingly well for 34 years under very specific conditions.
 
 "I'm so back" is the internet phrase, and honestly? Yeah… I do feel that.
 
@@ -393,7 +400,7 @@ I'm not trying to get back to the old version of myself.
 
 I finally understand the operating system I'm running on now.
 
-JoshHoltz.app 2.0 is being rebuilt for neurodivergent architecture from the start.
+<a href="https://joshholtz.app" target="_blank">JoshHoltz.app</a> 2.0 is being rebuilt for neurodivergent architecture from the start.
 
 And honestly, that changes everything.
 
@@ -410,13 +417,13 @@ This part is going to take time.
 
 But for the first time in a very long time, it actually feels like I'm solving the *right* problem.
 
-I don't need to force JoshHoltz.app to run like a neurotypical operating system.
+I don't need to force <a href="https://joshholtz.app" target="_blank">JoshHoltz.app</a> to run like a neurotypical operating system.
 
 I need to build an environment where this operating system can run efficiently, sustainably, and without constantly overheating itself trying to look "normal."
 
 ## Stay tuned for official release
 
-I don't have an official release date for JoshHoltz.app 2.0.
+I don't have an official release date for <a href="https://joshholtz.app" target="_blank">JoshHoltz.app</a> 2.0.
 
 And honestly, trying to force one probably defeats the point.
 
