@@ -27,18 +27,26 @@
         color: $colorAmber
 
 .nav
-  display: flex
-  justify-content: flex-end
+  text-align: center
+  margin-top: 20px
+  margin-bottom: 10px
 
   > .list
     padding: 0
 
     > .item > .link
-      font-size: 1.3rem
-      padding: 16px 10px
+      font-size: 1.6rem
+      padding: 7px 15px
+      border-radius: 6px
+      transition: all 0.25s ease-in-out
+
+      &:hover
+        color: $colorAmber
+        background: rgba(245,158,11,0.07)
 
 .nav-home
-  margin-top: 32px
+  margin-top: 28px
+  margin-bottom: 28px
   text-align: center
 
   > .list

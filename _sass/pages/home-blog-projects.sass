@@ -1,9 +1,18 @@
+.home-section-label
+  font-family: $fontMonospace
+  font-size: 1.1rem
+  text-transform: uppercase
+  letter-spacing: 0.12em
+  color: $colorTextMuted
+  margin: 0 0 8px 0
+  text-align: center
+
 .home,
 .blog,
 .projects
   margin-top: 40px
 
-  .list
+  main .list
     list-style: none
     padding: 0
     margin: 0
@@ -25,9 +34,9 @@
       background: $colorBg
       border-radius: 3px
 
-.home .list,
-.blog .list,
-.projects .list
+.home main .list,
+.blog main .list,
+.projects main .list
   > .item
     display: block
     width: 95%
@@ -97,8 +106,17 @@
   .item:hover .url aside
     color: $colorTextSecondary
 
-.blog .list > .item > .url,
-.projects .list > .item > .url
+// Remove divider from home page list since label serves as separator
+.home main .list
+  border-top: none
+  margin-top: 0
+  padding-top: 0
+
+  &:before
+    display: none
+
+.blog main .list > .item > .url,
+.projects main .list > .item > .url
   > .title
     display: inline
 

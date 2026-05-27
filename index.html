@@ -3,10 +3,11 @@ layout: page
 title: Home
 ---
 
-<ul class="list">
-    {% assign latest = site.posts | where: "category", "blog" | where: "hidden", false | first %}
-    {% if latest %}
+{% assign latest = site.posts | where: "category", "blog" | where_exp: "post", "post.hidden != true" | first %}
+{% if latest %}
+    <p class="home-section-label">Latest Article</p>
+    <ul class="list">
         {% assign post = latest %}
         {% include blog-post.html %}
-    {% endif %}
-</ul>
+    </ul>
+{% endif %}
