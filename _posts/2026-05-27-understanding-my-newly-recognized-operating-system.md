@@ -2,7 +2,7 @@
 title: Understanding my newly recognized operating system
 layout: post
 date: 2026-05-27 09:00:00 -0500
-image: /images/2026-05-27/header.jpg
+image: /images/2026-05-27/og.png
 tags:
     - life
     - adhd
