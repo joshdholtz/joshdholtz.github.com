@@ -454,3 +454,7 @@ I think I finally understand why now.
 And honestly?
 
 That feels really good.
+
+---
+
+*This is just my experience. Yours might look completely different — and that's okay.*
