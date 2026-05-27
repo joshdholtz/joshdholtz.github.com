@@ -14,7 +14,7 @@ author: joshdholtz
 description: For 34 years, <a href="https://joshholtz.app" target="_blank">JoshHoltz.app</a> ran on an operating system I didn't fully understand. This week, I finally got a diagnosis that made the whole system architecture make sense.
 ---
 
-*Written by me, edited with AI assistance.*
+*Written by me, edited with robot assistance.*
 
 I've always known the operating system <a href="https://joshholtz.app" target="_blank">JoshHoltz.app</a> runs on was a little different.
 
