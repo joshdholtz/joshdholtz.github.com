@@ -14,6 +14,10 @@ author: joshdholtz
 description: For 34 years, <a href="https://joshholtz.app" target="_blank">JoshHoltz.app</a> ran on an operating system I didn't fully understand. This week, I finally got a diagnosis that made the whole system architecture make sense.
 ---
 
+*Quick note: every word of this was written by me. But because I'm a chaotic AuDHD person who just got diagnosed, I had some AI help clean it up, fix my typos, and make sure it actually made sense. Felt only right to mention that upfront.*
+
+---
+
 I've always known the operating system <a href="https://joshholtz.app" target="_blank">JoshHoltz.app</a> runs on was a little different.
 
 Throughout my life, I unconsciously tuned the way I live for the "best" version of Josh. The environments I work in. The tools I obsess over. The routines I keep. The way I recover after social events. The way I hyperfocus. The way I burn out.
