@@ -1,34 +1,46 @@
 .header-home
-    display: block
-    margin: 0 auto
-    text-align: center
-    position: relative
-    z-index: 99
+  display: block
+  margin: 0 auto
+  text-align: center
+  position: relative
+  z-index: 99
+  padding-top: 20px
 
-    > .link > .selfie
-        width: 125px
-        margin-bottom: 25px
-        border-radius: 100%
-        transition: all .2s
-        box-shadow: 0
-        opacity: 1
+  > .link > .selfie
+    width: 110px
+    margin-bottom: 20px
+    border-radius: 100%
+    transition: all 0.3s ease
+    box-shadow: 0 0 0 0 rgba(245,158,11,0)
+    opacity: 1
+    animation: float 4s ease-in-out infinite
 
-        &:hover
-            box-shadow: 0 0px 4px 0 rgba(0,0,0,0.18), 0 0px 12px 0 rgba(0,0,0,0.15)
-            opacity: .8
+    &:hover
+      box-shadow: 0 0 0 3px rgba(245,158,11,0.25), 0 0 30px rgba(245,158,11,0.2)
+      opacity: 0.9
 
-    > .title
-        font-size: 4rem
-        margin: 0 0 13px
+  > .title
+    font-size: 3.6rem
+    margin: 0 0 10px
+    font-family: $fontMonospace
+    color: $colorTextPrimary
+    letter-spacing: -1px
 
-    > .description
-        font-size: 1.85rem
-        font-weight: 300
-        font-style: normal
-        color: $gama
-        width: 70%
-        margin: 0 auto 30px
+  > .description
+    font-size: 1.65rem
+    font-weight: 300
+    font-style: normal
+    color: $colorTextMuted
+    font-family: $fontMonospace
+    width: 80%
+    margin: 0 auto 24px
+    line-height: 1.6
 
-        // if you put some links in your bio. ;)
-        a
-            font-weight: 200
+    // links in bio
+    a
+      color: $colorAmber
+      text-decoration: none
+      font-weight: 400
+
+      &:hover
+        opacity: 0.8

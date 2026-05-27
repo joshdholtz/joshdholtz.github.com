@@ -1,143 +1,230 @@
+// Dark theme general styles
+
+html
+  color-scheme: dark
+
 body, html
-	font-size: 62.5%
+  font-size: 62.5%
 
 body
-	line-height: 1
-	font: 16px $fontSans
-	color: $alpha
+  line-height: 1
+  font: 16px $fontSans
+  color: $colorTextSecondary
+  background-color: $colorBg
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  overflow-x: hidden
+
+// Background overlay elements (referenced from default.html)
+.bg-noise
+  content: ''
+  position: fixed
+  inset: 0
+  pointer-events: none
+  z-index: -1
+  opacity: 0.025
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E")
+  background-size: 256px 256px
+
+.bg-glow
+  position: fixed
+  inset: 0
+  pointer-events: none
+  z-index: -1
+  background: radial-gradient(ellipse 80% 34% at 50% 0%, rgba(245,158,11,0.08), transparent)
+
+.bg-grid
+  position: fixed
+  inset: 0
+  pointer-events: none
+  z-index: -1
+  opacity: 0.03
+  background-image: repeating-linear-gradient(0deg, rgba(255,255,255,0.5) 0px, rgba(255,255,255,0.5) 1px, transparent 1px, transparent 64px), repeating-linear-gradient(90deg, rgba(255,255,255,0.5) 0px, rgba(255,255,255,0.5) 1px, transparent 1px, transparent 64px)
+
+// Scrollbar
+::-webkit-scrollbar
+  width: 4px
+  height: 4px
+
+::-webkit-scrollbar-track
+  background: $colorBg
+
+::-webkit-scrollbar-thumb
+  background: #3f3f46
+  border-radius: 2px
+
+::-webkit-scrollbar-thumb:hover
+  background: #52525b
 
 h1, h2, h3, h4
-	font-family: $fontSans
-	color: $beta
-	-webkit-font-smoothing: antialiased
-	text-rendering: optimizeLegibility
+  font-family: $fontSans
+  color: $colorTextPrimary
+  -webkit-font-smoothing: antialiased
+  text-rendering: optimizeLegibility
 
 h1
-	font-size: 3rem
-	letter-spacing: -1px
-	color: $beta
-	font-weight: 700
+  font-size: 3rem
+  letter-spacing: -1px
+  color: $colorTextPrimary
+  font-weight: 700
 
 h2
-	font-size: 2.2rem
+  font-size: 2.2rem
 
 h3
-	font-size: 2rem
+  font-size: 2rem
 
 h4
-	font-size: 1.6rem
+  font-size: 1.6rem
 
 a
-	color: $delta
-	text-decoration: underline
+  color: $colorAmber
+  text-decoration: underline
+  text-underline-offset: 2px
+  transition: color 0.2s ease, opacity 0.2s ease
+
+  &:hover
+    color: lighten(#f59e0b, 10%)
+    opacity: 0.9
 
 p
-	line-height: 1.7
-	color: $alpha
-	font-weight: 300
-	margin-bottom: 20px
-	letter-spacing: 0.4px
+  line-height: 1.75
+  color: $colorTextSecondary
+  font-weight: 300
+  margin-bottom: 20px
+  letter-spacing: 0.3px
 
-	@media #{$mobile}
-		letter-spacing: 0.2px
+  @media #{$mobile}
+    letter-spacing: 0.1px
 
 strong
-	font-weight: 400
-	color: #000
+  font-weight: 600
+  color: $colorTextPrimary
 
 ul,
 ol
-	li
-		line-height: 2.4rem
-		font-weight: 300
-		color: $alpha
+  li
+    line-height: 2.4rem
+    font-weight: 300
+    color: $colorTextSecondary
 
 img,
 pre,
 iframe
-	max-width: 100%
+  max-width: 100%
 
 img,
 pre
-	border-radius: 4px
+  border-radius: 8px
 
 figcaption
-	position: relative
-	top: -20px
-	left: 0
-	right: 0
-	margin: 0 auto
-	width: 100%
-	text-align: center
-	font-size: 1.3rem
-	color: $gama
-	font-weight: 300
+  position: relative
+  top: -20px
+  left: 0
+  right: 0
+  margin: 0 auto
+  width: 100%
+  text-align: center
+  font-size: 1.3rem
+  color: $colorTextMuted
+  font-weight: 300
+  font-family: $fontMonospace
 
-	@media #{$mobile}
-		font-size: 1.2rem
+  @media #{$mobile}
+    font-size: 1.2rem
 
+// Standard blockquote — amber left border
 blockquote
-	padding-left: 15px
-	border-left: 3px solid #eee
+  padding: 12px 16px
+  border-left: 2px solid $colorAmber
+  background: rgba(245,158,11,0.05)
+  border-radius: 0 6px 6px 0
+  margin: 24px 0
 
+  p
+    color: $colorTextSecondary
+    margin-bottom: 0
+
+// Pullquote — centered large italic amber
 blockquote.pullquote
-	border-left: none
-	padding: 20px 0
-	margin: 40px 0
-	text-align: center
-	font-size: 2.4rem
-	font-style: italic
-	line-height: 1.4
-	color: #333
+  border-left: none
+  background: none
+  border-radius: 0
+  padding: 20px 0
+  margin: 40px 0
+  text-align: center
+  font-size: 2.4rem
+  font-style: italic
+  line-height: 1.4
+  color: $colorAmber
+  text-shadow: 0 0 30px rgba(245,158,11,0.35)
+
+  p
+    color: $colorAmber
+    margin-bottom: 0
 
 hr
-	border: none
-	height: 1px
-	margin: 40px auto
-	background: #eee
-	width: 100%
+  border: none
+  height: 1px
+  margin: 40px auto
+  background: $colorBorder
+  width: 100%
 
 figure.highlight
-	width: 100%
-	margin: 0
+  width: 100%
+  margin: 0
 
+// Inline code
 code,
 tt
-	padding: 1px 0
-	font-family: $fontMonospace
-	font-size: 12px
-	line-height: 20px
-	background: #fff
-	border-radius: 2px
-	border-radius: 2px
+  padding: 2px 6px
+  font-family: $fontMonospace
+  font-size: 0.88em
+  line-height: 1.5
+  background: rgba(39,39,42,0.8)
+  color: $colorAmber
+  border-radius: 4px
+  border: 1px solid $colorBorder
 
+// Code blocks
 pre
-	box-sizing: border-box
-	margin: 0 0 1.75em 0
-	width: 100%
-	padding: 5px 10px
-	font-family: $fontMonospace
-	font-size: 1.2rem
-	line-height: 2rem
-	overflow: auto
-	background: #fff
-	border: 1px solid $epsilon
-	border-radius: 2px
+  box-sizing: border-box
+  margin: 0 0 1.75em 0
+  width: 100%
+  padding: 16px 20px
+  font-family: $fontMonospace
+  font-size: 1.3rem
+  line-height: 2rem
+  overflow: auto
+  background: rgba(24,24,27,0.8)
+  border: 1px solid $colorBorder
+  border-radius: 8px
+  color: $colorTextSecondary
 
+  code, tt
+    padding: 0
+    background: none
+    border: none
+    color: inherit
+    font-size: inherit
+
+// Wrapper
 .wrapper-normal,
 .wrapper-large
-	height: 100%
-	width: 96%
-	margin: 0 auto
+  height: 100%
+  width: 96%
+  margin: 0 auto
+  position: relative
+  z-index: 1
 
-	@media #{$mobile}
-		width: 88%
+  @media #{$mobile}
+    width: 88%
 
-	@media #{$tablet}
-		width: 88%
+  @media #{$tablet}
+    width: 88%
 
 .wrapper-normal
-	max-width: 560px
+  max-width: 560px
 
 .wrapper-large
-	max-width: 810px
+  max-width: 810px

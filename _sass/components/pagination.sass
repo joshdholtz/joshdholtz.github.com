@@ -1,19 +1,27 @@
 .pagination
-    width: 95%
-    margin: 3rem auto 0
-    text-align: center
+  width: 95%
+  margin: 3rem auto 0
+  text-align: center
+  font-family: $fontMonospace
 
-    > .page_number
-        display: inline-block
-        font-size: 1.3rem
+  > .page_number
+    display: inline-block
+    font-size: 1.3rem
+    color: $colorTextMuted
 
-    > .previous,
-    > .next
-        display: inline-block
-        font-size: 1.8rem
-        position: relative
-        top: 1px
-        padding: 1px 9px
+  > .previous,
+  > .next
+    display: inline-block
+    font-size: 1.8rem
+    position: relative
+    top: 1px
+    padding: 1px 9px
+    color: $colorTextSecondary
+    text-decoration: none
+    transition: color 0.2s ease
 
-    > .hidden
-        visibility: hidden
+    &:hover
+      color: $colorAmber
+
+  > .hidden
+    visibility: hidden

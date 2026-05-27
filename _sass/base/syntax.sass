@@ -1,208 +1,217 @@
 /*
- * GitHub style for Pygments syntax highlighter, for use with Jekyll
- * Courtesy of GitHub.com
+ * Dark syntax highlighting for Pygments / Rouge
  */
 
 .highlight
-	.c
-		color: #999988
-		font-style: italic
+  background: rgba(24,24,27,0.9)
+  border: 1px solid rgba(63,63,70,0.45)
+  border-radius: 8px
+  padding: 16px 20px
+  overflow-x: auto
+  margin: 0 0 1.75em 0
 
-	.err
-		color: #a61717
-		background-color: #e3d2d2
+  pre
+    background: none
+    border: none
+    border-radius: 0
+    padding: 0
+    margin: 0
 
-	.k
-		font-weight: bold
+  .c
+    color: #6b7280
+    font-style: italic
 
-	.o
-		font-weight: bold
+  .err
+    color: #f87171
+    background-color: rgba(239,68,68,0.1)
 
-	.cm
-		color: #999988
-		font-style: italic
+  .k
+    color: #c084fc
+    font-weight: 500
 
-	.cp
-		color: #999999
-		font-weight: bold
+  .o
+    color: #94a3b8
 
-	.c1
-		color: #999988
-		font-style: italic
+  .cm
+    color: #6b7280
+    font-style: italic
 
-	.cs
-		color: #999999
-		font-weight: bold
-		font-style: italic
+  .cp
+    color: #6b7280
 
-	.gd
-		color: #000000
-		background-color: #ffdddd
+  .c1
+    color: #6b7280
+    font-style: italic
 
-	.gd .x
-		color: #000000
-		background-color: #ffaaaa
+  .cs
+    color: #6b7280
+    font-style: italic
 
-	.ge
-		font-style: italic
+  .gd
+    color: #f87171
+    background-color: rgba(239,68,68,0.12)
 
-	.gr
-		color: #aa0000
+  .ge
+    font-style: italic
 
-	.gh
-		color: #999999
+  .gr
+    color: #f87171
 
-	.gi
-		color: #000000
-		background-color: #ddffdd
+  .gh
+    color: #a1a1aa
+    font-weight: bold
 
-	.gi .x
-		color: #000000
-		background-color: #aaffaa
+  .gi
+    color: #4ade80
+    background-color: rgba(74,222,128,0.1)
 
-	.go
-		color: #888888
+  .go
+    color: #71717a
 
-	.gp
-		color: #555555
+  .gp
+    color: #71717a
 
-	.gs
-		font-weight: bold
+  .gs
+    font-weight: bold
 
-	.gu
-		color: #800080
-		font-weight: bold
+  .gu
+    color: #c084fc
+    font-weight: bold
 
-	.gt
-		color: #aa0000
+  .gt
+    color: #f87171
 
-	.kc
-		font-weight: bold
+  .kc
+    color: #c084fc
+    font-weight: 500
 
-	.kd
-		font-weight: bold
+  .kd
+    color: #c084fc
+    font-weight: 500
 
-	.kn
-		font-weight: bold
+  .kn
+    color: #c084fc
+    font-weight: 500
 
-	.kp
-		font-weight: bold
+  .kp
+    color: #c084fc
 
-	.kr
-		font-weight: bold
+  .kr
+    color: #c084fc
+    font-weight: 500
 
-	.kt
-		color: #445588
-		font-weight: bold
+  .kt
+    color: #67e8f9
+    font-weight: 500
 
-	.m
-		color: #009999
+  .m
+    color: #fb923c
 
-	.s
-		color: #dd1144
+  .s
+    color: #86efac
 
-	.n
-		color: #333333
+  .n
+    color: #e2e8f0
 
-	.na
-		color: teal
+  .na
+    color: #67e8f9
 
-	.nb
-		color: #0086b3
+  .nb
+    color: #67e8f9
 
-	.nc
-		color: #445588
-		font-weight: bold
+  .nc
+    color: #67e8f9
+    font-weight: 500
 
-	.no
-		color: teal
+  .no
+    color: #67e8f9
 
-	.ni
-		color: purple
+  .ni
+    color: #c084fc
 
-	.ne
-		color: #990000
-		font-weight: bold
+  .ne
+    color: #f87171
+    font-weight: bold
 
-	.nf
-		color: #990000
-		font-weight: bold
+  .nf
+    color: #f59e0b
 
-	.nn
-		color: #555555
+  .nn
+    color: #a1a1aa
 
-	.nt
-		color: navy
+  .nt
+    color: #67e8f9
 
-	.nv
-		color: teal
+  .nv
+    color: #e2e8f0
 
-	.ow
-		font-weight: bold
+  .ow
+    color: #94a3b8
 
-	.w
-		color: #bbbbbb
+  .w
+    color: #71717a
 
-	.mf
-		color: #009999
+  .mf
+    color: #fb923c
 
-	.mh
-		color: #009999
+  .mh
+    color: #fb923c
 
-	.mi
-		color: #009999
+  .mi
+    color: #fb923c
 
-	.mo
-		color: #009999
+  .mo
+    color: #fb923c
 
-	.sb
-		color: #dd1144
+  .sb
+    color: #86efac
 
-	.sc
-		color: #dd1144
+  .sc
+    color: #86efac
 
-	.sd
-		color: #dd1144
+  .sd
+    color: #6b7280
+    font-style: italic
 
-	.s2
-		color: #dd1144
+  .s2
+    color: #86efac
 
-	.se
-		color: #dd1144
+  .se
+    color: #fb923c
 
-	.sh
-		color: #dd1144
+  .sh
+    color: #86efac
 
-	.si
-		color: #dd1144
+  .si
+    color: #fb923c
 
-	.sx
-		color: #dd1144
+  .sx
+    color: #86efac
 
-	.sr
-		color: #009926
+  .sr
+    color: #4ade80
 
-	.s1
-		color: #dd1144
+  .s1
+    color: #86efac
 
-	.ss
-		color: #990073
+  .ss
+    color: #c084fc
 
-	.bp
-		color: #999999
+  .bp
+    color: #71717a
 
-	.vc
-		color: teal
+  .vc
+    color: #e2e8f0
 
-	.vg
-		color: teal
+  .vg
+    color: #e2e8f0
 
-	.vi
-		color: teal
+  .vi
+    color: #e2e8f0
 
-	.il
-		color: #009999
+  .il
+    color: #fb923c
 
-	.gc
-		color: #999
-		background-color: #EAF2F5
+  .gc
+    color: #71717a
+    background-color: rgba(63,63,70,0.3)

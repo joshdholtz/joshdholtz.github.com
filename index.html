@@ -2,3 +2,11 @@
 layout: page
 title: Home
 ---
+
+<section class="list">
+    {% assign latest = site.posts | where: "category", "blog" | where: "hidden", false | first %}
+    {% if latest %}
+        {% assign post = latest %}
+        {% include blog-post.html %}
+    {% endif %}
+</section>

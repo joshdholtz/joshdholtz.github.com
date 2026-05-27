@@ -1,74 +1,106 @@
 .home,
 .blog,
 .projects
-    margin-top: 125px
+  margin-top: 40px
 
-    > .list
-        border-top: 1px solid $epsilon
-        margin-top: 30px
-        padding-top: 40px
-        position: relative
+  > .list
+    border-top: 1px solid $colorBorder
+    margin-top: 30px
+    padding-top: 40px
+    position: relative
 
-        &:before
-            display: block
-            content: " "
-            width: 7px
-            height: 7px
-            border: $epsilon 1px solid
-            position: absolute
-            top: -5px
-            left: 50%
-            margin-left: -5px
-            background: #FFF
-            box-shadow: #FFF 0 0 0 5px
-            border-radius: 3px
+    &:before
+      display: block
+      content: " "
+      width: 7px
+      height: 7px
+      border: $colorBorder 1px solid
+      position: absolute
+      top: -5px
+      left: 50%
+      margin-left: -5px
+      background: $colorBg
+      border-radius: 3px
 
 .home > .list,
 .blog > .list,
 .projects > .list
-    > .item
-        display: block
-        width: 95%
-        margin: 0 auto
+  > .item
+    display: block
+    width: 95%
+    margin: 0 auto 4px
+    border-bottom: 1px solid $colorBorder
+    padding-bottom: 4px
 
-    > .item > .url
-        width: 100%
-        display: block
-        padding: 20px 0
-        text-decoration: none
+    &:last-child
+      border-bottom: none
 
-    > .item > .url > .title
-        margin: 0
-        width: 75%
-        font-weight: 500
-        transition: all ease-in-out .2s
+  > .item > .url
+    width: 100%
+    display: block
+    padding: 18px 20px
+    text-decoration: none
+    border-radius: 8px
+    border: 1px solid transparent
+    background: transparent
+    transition: all 0.2s ease
+    position: relative
+    overflow: hidden
 
-    > .item:hover > .url > .title
-        color: $delta
+    &:hover
+      background: linear-gradient(145deg, rgba(39,39,42,0.74), rgba(24,24,27,0.62))
+      border-color: $colorBorder
+      border-left-color: $colorAmber
 
-    // maybe we can't nest html5 elements
-    // can you help me?
-    aside
-        position: relative
-        top: 2px
-        margin: 0
-        width: 25%
-        float: right
-        font-weight: 300
-        color: $gama
-        text-align: right
-        transition: all ease-in-out .2s
+  // top-border shine on hovered panel
+  > .item > .url:hover:after
+    content: ''
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    height: 1px
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.06), transparent)
 
-    .item:hover .url aside
-        color: $alpha
+  > .item > .url > .title
+    margin: 0 0 6px
+    width: 100%
+    font-weight: 400
+    font-size: 1.8rem
+    color: $colorTextPrimary
+    transition: color 0.2s ease
+
+  > .item > .url > .description
+    margin: 8px 0 0
+    font-size: 1.6rem
+    font-weight: 300
+    color: $colorTextMuted
+    line-height: 1.6
+
+  > .item:hover > .url > .title
+    color: $colorAmber
+
+  // maybe we can't nest html5 elements
+  aside
+    display: block
+    margin: 0 0 8px
+    font-family: $fontMonospace
+    font-size: 1.1rem
+    font-weight: 300
+    color: $colorTextMuted
+    letter-spacing: 0.05em
+    transition: color 0.2s ease
+
+  .item:hover .url aside
+    color: $colorTextSecondary
 
 .blog > .list > .item > .url,
 .projects > .list > .item > .url
-    > .title
-        display: inline
+  > .title
+    display: inline
 
-    > .emoji
-        display: inline
-        position: relative
-        top: -4px
-        margin-right: 10px
+  > .emoji
+    display: inline
+    position: relative
+    top: -4px
+    margin-right: 10px

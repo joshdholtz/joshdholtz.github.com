@@ -1,60 +1,145 @@
 .post
-    margin-top: 125px
+  margin-top: 20px
 
-    > .title
-        text-align: center
-        margin-bottom: 3rem
+  > .title
+    text-align: center
+    margin-bottom: 1.6rem
+    color: $colorTextPrimary
+    font-size: 3rem
+    font-weight: 300
+    line-height: 1.3
 
-    > .date,
-    > .post-tags
-        color: $gama
-        font-weight: 300
-        font-size: 1.4rem
-        text-transform: uppercase
-        text-align: center
-        display: block
-        margin-bottom: 6rem
-        letter-spacing: 1px
-        -webkit-font-smoothing: antialiased
-        text-rendering: optimizeLegibility
+  > .date,
+  > .post-tags
+    font-family: $fontMonospace
+    color: $colorTextMuted
+    font-weight: 400
+    font-size: 1.2rem
+    text-transform: uppercase
+    text-align: center
+    display: block
+    letter-spacing: 0.12em
+    -webkit-font-smoothing: antialiased
 
-    > .date
-        margin-bottom: 2rem
+  > .date
+    margin-bottom: 1.2rem
 
-    > .post-tags > .item
-        padding: 2px 8px
-        border-radius: 3px
-        font-size: 1.1rem
-        background: $epsilon
-        color: $alpha
-        letter-spacing: 1px
-        margin: 3px 1px
-        text-decoration: none
-        display: inline-block
+  > .post-tags
+    margin-bottom: 0
 
-    // general style
-    > h2,
-    > h3,
-    > h4
-        margin-top: 40px
+  > .post-tags > .item
+    padding: 3px 10px
+    border-radius: 4px
+    font-size: 1.1rem
+    font-family: $fontMonospace
+    background: rgba(245,158,11,0.1)
+    color: $colorAmber
+    border: 1px solid rgba(245,158,11,0.25)
+    letter-spacing: 0.06em
+    margin: 3px 2px
+    text-decoration: none
+    display: inline-block
+    transition: all 0.2s ease
 
-        a
-            text-decoration: none
+    &:hover
+      background: rgba(245,158,11,0.18)
+      border-color: rgba(245,158,11,0.5)
 
-    > .title-image
-        max-height: 120px
-        display: block
-        margin: 0 auto
+  // Divider between post header and body
+  > .post-divider
+    border: none
+    height: 1px
+    background: $colorBorder
+    margin: 3rem 0
 
-    > .blog-navigation
-        font-size: 1.4rem
-        display: block
-        width: auto
-        overflow: hidden
-        a
-            display: block
-            width: 50%
-            float: left
-            margin: 1em 0
-        .next
-            text-align: right
+  > .post-disclosure
+    font-family: $fontMonospace
+    font-size: 1.1rem
+    color: $colorTextMuted
+    letter-spacing: 0.06em
+    margin-bottom: 2.4rem
+    padding: 8px 14px
+    border-left: 2px solid rgba(245,158,11,0.3)
+    background: rgba(245,158,11,0.04)
+    border-radius: 0 4px 4px 0
+
+  > p
+    font-size: 1.7rem
+    line-height: 1.6
+    color: #c4c4c7
+    font-weight: 300
+    margin-bottom: 1.4rem
+
+  > h2
+    font-size: 2.4rem
+    font-weight: 400
+    color: $colorTextPrimary
+    margin-top: 4rem
+    margin-bottom: 1rem
+    padding-bottom: 0.6rem
+    border-bottom: 1px solid $colorBorder
+
+  > h3
+    font-size: 2rem
+    font-weight: 400
+    color: $colorTextPrimary
+    margin-top: 3rem
+    margin-bottom: 0.8rem
+
+  > h4
+    font-size: 1.7rem
+    font-weight: 400
+    color: $colorTextSecondary
+    margin-top: 2.5rem
+    margin-bottom: 0.6rem
+
+  > h2, > h3, > h4
+    a
+      text-decoration: none
+      color: inherit
+
+      &:hover
+        color: $colorAmber
+
+  > ul, > ol
+    padding-left: 3rem
+    margin-bottom: 1.8rem
+
+    li
+      font-size: 1.7rem
+      line-height: 1.6
+      color: #c4c4c7
+      font-weight: 300
+      margin-bottom: 0.3rem
+
+  > .title-image
+    max-width: 280px
+    width: 100%
+    display: block
+    margin: 2.5rem auto
+    border-radius: 8px
+
+  > .blog-navigation
+    font-family: $fontMonospace
+    font-size: 1.3rem
+    display: block
+    width: auto
+    overflow: hidden
+    margin-top: 4rem
+    border-top: 1px solid $colorBorder
+    padding-top: 2rem
+
+    a
+      display: block
+      width: 50%
+      float: left
+      margin: 0.5em 0
+      text-decoration: none
+      color: $colorTextMuted
+      transition: color 0.2s ease
+
+      &:hover
+        color: $colorAmber
+
+    .next
+      text-align: right

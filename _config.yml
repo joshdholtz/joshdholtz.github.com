@@ -1,6 +1,6 @@
 # main text of home
 name: Josh Holtz
-bio: Software superstar. Stuttering stud. <br/> Lead maintainer of <a href='https://github.com/fastlane/fastlane'>fastlane tools</a>
+bio: Dad. Engineer at <a href='https://revenuecat.com'>RevenueCat</a>. Lead maintainer of <a href='https://fastlane.tools'>fastlane</a>. Organizer of <a href='https://deepdishswift.com'>Deep Dish Swift</a>. AuDHD human. He/him.
 
 # twitter summary info
 description: Software superstar. Stuttering stud. Lead maintainer of fastlane tools.
@@ -35,14 +35,11 @@ disqus:
     categories: []
 
 # if you don't have any of social below, comment the line
-facebook: josh.holtz
 twitter: joshdholtz
-# google: mygoogle
+mastodon: joshdholtz@mastodon.social
+bluesky: joshdholtz.bsky.social
 instagram: joshdholtz
-# pinterest: mypinterest
 linkedin: josh-holtz-771b582a
-# youtube: myyoutube
-# spotify: myspotify
 github: joshdholtz
 # gitlab: mygitlab
 # lastfm: mylastfm
