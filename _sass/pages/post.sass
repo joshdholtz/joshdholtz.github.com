@@ -122,24 +122,27 @@
   > .blog-navigation
     font-family: $fontMonospace
     font-size: 1.3rem
-    display: block
-    width: auto
-    overflow: hidden
+    display: flex
+    justify-content: space-between
+    align-items: center
     margin-top: 4rem
     border-top: 1px solid $colorBorder
     padding-top: 2rem
+    gap: 1rem
 
     a
-      display: block
-      width: 50%
-      float: left
-      margin: 0.5em 0
+      display: inline-flex
+      align-items: center
+      min-height: 44px
+      padding: 4px 0
       text-decoration: none
       color: $colorTextMuted
       transition: color 0.2s ease
+      max-width: 48%
 
       &:hover
         color: $colorAmber
 
     .next
       text-align: right
+      margin-left: auto

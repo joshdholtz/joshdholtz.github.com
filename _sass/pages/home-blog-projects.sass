@@ -3,7 +3,10 @@
 .projects
   margin-top: 40px
 
-  > .list
+  .list
+    list-style: none
+    padding: 0
+    margin: 0
     border-top: 1px solid $colorBorder
     margin-top: 30px
     padding-top: 40px
@@ -22,9 +25,9 @@
       background: $colorBg
       border-radius: 3px
 
-.home > .list,
-.blog > .list,
-.projects > .list
+.home .list,
+.blog .list,
+.projects .list
   > .item
     display: block
     width: 95%
@@ -94,8 +97,8 @@
   .item:hover .url aside
     color: $colorTextSecondary
 
-.blog > .list > .item > .url,
-.projects > .list > .item > .url
+.blog .list > .item > .url,
+.projects .list > .item > .url
   > .title
     display: inline
 

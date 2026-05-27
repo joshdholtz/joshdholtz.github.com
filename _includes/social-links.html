@@ -1,43 +1,43 @@
 <div class="social-links">
     {% if site.twitter %}
-        <a class="link" data-title="twitter.com/{{ site.twitter }}" href="https://twitter.com/{{ site.twitter }}" target="_blank" aria-label="Twitter">
-            <span class="iconify" data-icon="simple-icons:x"></span>
+        <a class="link" data-title="twitter.com/{{ site.twitter }}" href="https://twitter.com/{{ site.twitter }}" target="_blank" rel="noopener noreferrer" aria-label="Twitter (opens in new tab)">
+            <span class="iconify" data-icon="simple-icons:x" aria-hidden="true"></span>
         </a>
     {% endif %}
 
     {% if site.mastodon %}
-        <a class="link" data-title="{{ site.mastodon }}" href="https://mastodon.social/@joshdholtz" target="_blank" rel="me" aria-label="Mastodon">
-            <span class="iconify" data-icon="simple-icons:mastodon"></span>
+        <a class="link" data-title="{{ site.mastodon }}" href="https://mastodon.social/@joshdholtz" target="_blank" rel="me noopener noreferrer" aria-label="Mastodon (opens in new tab)">
+            <span class="iconify" data-icon="simple-icons:mastodon" aria-hidden="true"></span>
         </a>
     {% endif %}
 
     {% if site.bluesky %}
-        <a class="link" data-title="{{ site.bluesky }}" href="https://bsky.app/profile/{{ site.bluesky }}" target="_blank" aria-label="Bluesky">
-            <span class="iconify" data-icon="simple-icons:bluesky"></span>
+        <a class="link" data-title="{{ site.bluesky }}" href="https://bsky.app/profile/{{ site.bluesky }}" target="_blank" rel="noopener noreferrer" aria-label="Bluesky (opens in new tab)">
+            <span class="iconify" data-icon="simple-icons:bluesky" aria-hidden="true"></span>
         </a>
     {% endif %}
 
     {% if site.instagram %}
-        <a class="link" data-title="instagram.com/{{ site.instagram }}" href="https://instagram.com/{{ site.instagram }}" target="_blank" aria-label="Instagram">
-            <span class="iconify" data-icon="simple-icons:instagram"></span>
+        <a class="link" data-title="instagram.com/{{ site.instagram }}" href="https://instagram.com/{{ site.instagram }}" target="_blank" rel="noopener noreferrer" aria-label="Instagram (opens in new tab)">
+            <span class="iconify" data-icon="simple-icons:instagram" aria-hidden="true"></span>
         </a>
     {% endif %}
 
     {% if site.github %}
-        <a class="link" data-title="github.com/{{ site.github }}" href="https://github.com/{{ site.github }}" target="_blank" aria-label="GitHub">
-            <span class="iconify" data-icon="simple-icons:github"></span>
+        <a class="link" data-title="github.com/{{ site.github }}" href="https://github.com/{{ site.github }}" target="_blank" rel="noopener noreferrer" aria-label="GitHub (opens in new tab)">
+            <span class="iconify" data-icon="simple-icons:github" aria-hidden="true"></span>
         </a>
     {% endif %}
 
     {% if site.linkedin %}
-        <a class="link" data-title="linkedin.com/in/{{ site.linkedin }}" href="https://linkedin.com/in/{{ site.linkedin }}" target="_blank" aria-label="LinkedIn">
-            <span class="iconify" data-icon="simple-icons:linkedin"></span>
+        <a class="link" data-title="linkedin.com/in/{{ site.linkedin }}" href="https://linkedin.com/in/{{ site.linkedin }}" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn (opens in new tab)">
+            <span class="iconify" data-icon="simple-icons:linkedin" aria-hidden="true"></span>
         </a>
     {% endif %}
 
     {% if site.email %}
-        <a class="link" data-title="{{ site.email }}" href="mailto:{{ site.email }}" aria-label="Email">
-            <span class="iconify" data-icon="lucide:mail"></span>
+        <a class="link" data-title="{{ site.email }}" href="mailto:{{ site.email }}" aria-label="Email {{ site.email }}">
+            <span class="iconify" data-icon="lucide:mail" aria-hidden="true"></span>
         </a>
     {% endif %}
 </div>

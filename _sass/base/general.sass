@@ -228,3 +228,36 @@ pre
 
 .wrapper-large
   max-width: 810px
+
+// Skip navigation link
+.skip-link
+  position: absolute
+  top: -100px
+  left: 0
+  padding: 8px 16px
+  background: $colorAmber
+  color: #000
+  font-family: $fontMonospace
+  font-size: 1.3rem
+  font-weight: 600
+  z-index: 9999
+  border-radius: 0 0 4px 0
+  text-decoration: none
+  transition: top 0.2s ease
+
+  &:focus
+    top: 0
+
+// Focus styles for keyboard navigation
+:focus-visible
+  outline: 2px solid $colorAmber
+  outline-offset: 3px
+  border-radius: 2px
+
+a:focus-visible
+  outline: 2px solid $colorAmber
+  outline-offset: 3px
+
+// Mastodon verification link (hidden but present for rel=me)
+.mastodon-verify
+  display: none

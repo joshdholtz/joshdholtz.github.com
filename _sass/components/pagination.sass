@@ -11,17 +11,18 @@
 
   > .previous,
   > .next
-    display: inline-block
+    display: inline-flex
+    align-items: center
     font-size: 1.8rem
-    position: relative
-    top: 1px
-    padding: 1px 9px
+    padding: 10px 14px
+    min-height: 44px
     color: $colorTextSecondary
     text-decoration: none
     transition: color 0.2s ease
+    border-radius: 4px
 
     &:hover
       color: $colorAmber
 
   > .hidden
-    visibility: hidden
+    display: none
