@@ -9,7 +9,7 @@ tags:
     - mentalhealth
 category: blog
 author: joshdholtz
-description: "How are you? used to have an easy answer. While recovering from autistic burnout and unmasking, I'm realizing I don't want to be great. I want to be consistent."
+description: "How are you? used to have an easy answer. While recovering from autistic burnout and unmasking, I'm realizing I don't need to be 'great.' I want to be consistent, content, and myself."
 disclosure: Written by me, edited with robot assistance.
 ---
 
