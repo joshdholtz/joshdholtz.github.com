@@ -33,15 +33,29 @@ And usually with way more excitement than the question probably deserved 😅
 
 It was easy. It was automatic. And I didn’t really have to think about it.
 
-If I say I’m great — and I say it enthusiastically enough — then we’re good! Question answered. Nobody has to feel weird. Nobody needs to ask a follow-up. And, maybe most importantly, *I* don’t have to figure out how I actually am.
+If I say I’m great and I say it enthusiastically enough, then we’re good! Question answered. Nobody has to feel weird. Nobody needs to ask a follow-up. And, maybe most importantly, *I* don’t have to figure out how I actually am.
 
 But while recovering from autistic burnout and trying to unmask more of myself, I’ve realized I really don’t like answering that way anymore.
 
 Because I don’t know if I’m “great.”
 
-That doesn’t mean I’m *not* great. I just… don’t know what that means?
+That doesn’t mean I’m *not* great. I just… don’t really know what “great” means?
 
-I don’t think I feel emotions that strongly all of the time. And I’m not even sure I want to.
+Great has too many variables.
+
+Am I great at work? At home? Am I sleeping well? Am I stressed? Am I having a good day? A good week? Am I happy? Am I overwhelmed? Do I have enough energy?
+
+Like… which one are we measuring? 😅
+
+“Great” can mean so many things that, for me, it kind of ends up meaning nothing.
+
+And I think that’s part of why I used it for so long.
+
+It was an easy answer to a complicated question.
+
+I didn’t have to actually figure out any of those variables.
+
+I could just say I was great.
 
 Lately my go-to answer has somehow become:
 
@@ -52,6 +66,28 @@ Which is a very weird answer to “How are you?” 😂
 Sometimes I say “I’m trying to be consistent.”
 
 And that feels a lot closer to the truth.
+
+But maybe “consistent” isn’t even the right answer.
+
+Maybe it’s:
+
+**“I’m solid.”**
+
+Not good. Not bad. Definitely not “great!” 😅
+
+Just… solid.
+
+I think consistency is what gets me there.
+
+My autism and ADHD can pull me in different directions. I want sameness and predictability, but I also want novelty and stimulation. I want routine until I desperately want something new.
+
+Being consistent doesn’t mean every day needs to be identical. It means I’ve found somewhere in the middle where those parts of me feel a little more balanced.
+
+Centered might be another word for it.
+
+I don’t need every day to feel great.
+
+I just want to feel like my feet are underneath me.
 
 “Content” is another word I keep coming back to, although that word feels like it has this weird negative connotation. Like being content means you’ve settled. You’ve stopped trying. You should want to be *great* instead.
 
@@ -73,25 +109,33 @@ And it’s not that I’m unhappy! I actually think I have a generally happy-go-
 
 But I’m also realizing I probably spent a lot of my life masking and amplifying that part of myself.
 
-Which makes another thing people have said to me lately feel really weird:
-
-**“It seems like old Josh is back.”**
+And I’ve heard versions of this idea lately that I seem more like myself again. More like I used to be.
 
 I know what people mean when they say that. And I know they mean it as a good thing.
 
-But…
+And part of me likes hearing it!
 
-I don’t want old Josh back.
+But I don’t really want to go *back*.
 
-Because I don’t really know who that was.
+I think I knew who I was.
 
-Old Josh was trying to fit together a lot of different ways of being based on what people wanted, what the world wanted, and what I thought I was supposed to be.
+The exhausting part was figuring out how to **be *that person* in *this world*.**
 
-Some of that was me.
+How should I act here? What does this person expect from me? What am I supposed to do in this situation? How much energy should I have? How excited should I be? What do I need to push through?
 
-Probably a lot of it was me!
+There was so much thinking involved in just… being me.
 
-But some of it was masking. Some of it was covering things up. Some of it was pushing through things because I thought that was just what you did.
+And I got really good at it.
+
+But it took a lot of effort, stress, and energy to make everything fit together the way I thought it needed to.
+
+That’s the part I don’t want back.
+
+I don’t want to become a different person.
+
+I want being the person I already am to feel easier.
+
+Some of that old version was masking. Some of it was covering things up. Some of it was pushing through things because I thought that was just what you did.
 
 And that was exhausting.
 
@@ -101,7 +145,7 @@ So recovering from burnout can’t mean getting really good at doing all of that
 
 I don’t want to recover my ability to mask.
 
-**I don’t think recovery means getting back to where I was. I think it means figuring out what a sustainable version of me actually looks like. Maybe that version can’t do everything old Josh did. Maybe he doesn’t want to. And I think I’m becoming more okay with that.**
+**I don’t think recovery means getting back to where I was. I think it means figuring out what a sustainable version of me actually looks like. Maybe that version can’t do everything I used to do. Maybe he doesn’t want to. And I think I’m becoming more okay with that.**
 
 I want to be me.
 
@@ -121,12 +165,26 @@ Not because it’s what somebody else expects.
 
 Not because “I’m great!” is the easiest answer to the question.
 
+And none of this means I don’t want people to ask me how I’m doing. Please do!
+
+And if you tell me I seem more like myself again, that’s okay too. I’ll probably be happy to hear it. 🙂
+
+I just think about those things differently now.
+
+I’m not trying to get back to exactly who I was.
+
+I think I’ve always had a pretty good idea of **who I am**.
+
+I’m learning a different way to **be him**.
+
+Maybe that’s why “How are you?” has become such a complicated question.
+
+It’s not really about figuring out *who* I am.
+
+It’s figuring out *how* I am and how I want to be.
+
 So… how am I?
 
-I don’t know.
+I think I finally have an answer.
 
-I’m consistent.
-
-Or at least I’m trying to be.
-
-And right now, I think I’m pretty content with that. 🙂
+**I’m solid. 🙂**
