@@ -44,6 +44,22 @@ Sometimes I'll build the wrong thing for a while before realizing what the right
 
 And I'm completely comfortable with that.
 
+I think I've realized that I'm extremely comfortable with ambiguity. Maybe I even prefer it.
+
+“I don't know what I'm doing” doesn't really scare me when I know where I'm trying to go.
+
+I'll try things. I'll fail. I'll change directions. And most of the time, I'm pretty confident I'll eventually figure something out.
+
+But I also might not.
+
+And that's okay too.
+
+Because even if I don't get where I thought I was going, I'll probably learn something along the way. Maybe that changes the destination. Maybe it becomes useful for something completely different later.
+
+Either way, there's something useful on the other side of the ambiguity. Sometimes it's the thing I was trying to build. Sometimes it's just knowing more than I did before.
+
+And a lot of the time, that's where I find the interesting stuff.
+
 What I'm not very good at is explaining that process before it happens.
 
 If you ask me what I'm going to do next week, I can probably tell you what I want to have accomplished.
