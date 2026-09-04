@@ -52,6 +52,10 @@ If you ask me exactly how I'm going to accomplish it, my answer is probably:
 
 I don't know yet.
 
+But not knowing the path doesn't mean I don't want to be accountable for where I'm going.
+
+I actually like having a clear destination. I like knowing what we're trying to accomplish and what success looks like. I just don't always know which steps will be useful until I've started taking them.
+
 ## I don't actually want to work alone
 
 This is the part I think I've misunderstood about myself.
@@ -128,15 +132,15 @@ Then we figure out how to get there.
 
 ## There were times management gave me this too
 
-I've also been thinking about the times being an engineering manager at [RevenueCat](https://www.revenuecat.com/) worked well for me.
+I've also been thinking about the times being an engineering manager at [RevenueCat](https://www.revenuecat.com/) worked especially well for me.
 
-I don't think I'd say that I worked well as an engineering manager overall. But there were definitely periods where the shape of the job lined up really well with how I work.
+There were definitely periods where the shape of the job lined up really well with how I work.
 
 I had an amazing team.
 
 They didn't need me to figure out everyone's path for them. We could agree on where we were trying to go, and they were extremely capable of figuring out how to get there.
 
-And during some of those periods, I was still doing a lot of IC-ish work around the edges.
+And during some of those periods, I was still doing a lot of individual contributor work around the edges.
 
 Side quests.
 
@@ -150,7 +154,7 @@ Not necessarily because management itself was the perfect role for me.
 
 But because, for a while, it gave me the kind of work I seem to keep finding anyway.
 
-## Maybe DevEx is just side quests as a job
+## Maybe Developer Experience is just side quests as a job
 
 I'm in Developer Experience now, and I've realized something kind of funny about my new role.
 
