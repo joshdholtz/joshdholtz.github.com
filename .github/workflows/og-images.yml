@@ -1,0 +1,52 @@
+name: Generate blog OG images
+
+on:
+  pull_request:
+    paths:
+      - "_posts/**"
+      - "scripts/generate-og.rb"
+      - ".github/workflows/og-images.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  og-images:
+    # The workflow commits generated images back to the PR branch. Do not
+    # request another write-capable run for that bot-authored commit.
+    if: github.event.pull_request.head.repo.full_name == github.repository && github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event.pull_request.head.ref }}
+
+      - name: Install OG image dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick fonts-inter fonts-jetbrains-mono
+
+      - name: Generate OG images for changed posts
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          set -euo pipefail
+          git diff --name-only "$BASE_SHA"...HEAD -- '_posts/*.md' | while read -r post; do
+            [ -n "$post" ] || continue
+            ruby scripts/generate-og.rb "$post"
+          done
+
+      - name: Commit generated OG images
+        run: |
+          git add images/
+
+          if git diff --cached --quiet -- images/; then
+            echo "OG images are already current."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Generate blog OG images"
+          git push
