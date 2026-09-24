@@ -1,4 +1,4 @@
-name: Verify blog OG images
+name: Generate blog OG images
 
 on:
   pull_request:
@@ -8,13 +8,16 @@ on:
       - ".github/workflows/og-images.yml"
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   og-images:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event.pull_request.head.ref }}
 
       - name: Install OG image dependencies
         run: |
@@ -31,11 +34,15 @@ jobs:
             ruby scripts/generate-og.rb "$post"
           done
 
-      - name: Verify generated images are committed
+      - name: Commit generated OG images
         run: |
-          if ! git diff --exit-code -- images/; then
-            echo
-            echo "OG images are out of date."
-            echo "Run: ruby scripts/generate-og.rb _posts/<post>.md"
-            exit 1
+          if git diff --quiet -- images/; then
+            echo "OG images are already current."
+            exit 0
           fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add images/
+          git commit -m "Generate blog OG images"
+          git push
