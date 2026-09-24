@@ -3,7 +3,7 @@ title: I Reread My Neuropsych Evaluation Four Months Later
 layout: post
 date: 2026-09-23 21:30:00 -0500
 image: /images/2026-09-23/neuropsych-evaluation-four-months-later.jpg
-headerImage: true
+headerImage: false
 tags:
     - life
     - autism
