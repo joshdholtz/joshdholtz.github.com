@@ -96,9 +96,13 @@ This also sounds about right.
 
 I like problems.
 
-I especially like problems where I understand what I'm solving.
+Complicated problems. Weird problems. Open-ended problems where nobody really knows what the answer is yet.
 
-Here is the thing. Here are the rules. Make the thing work.
+I'm actually pretty good with ambiguity.
+
+Give me one big messy problem and I'll start pulling it apart. I'll find the smaller problems inside of it, give them boundaries, figure out how they connect, and start working through them.
+
+Then I'll piece everything back together.
 
 I accidentally made a whole career out of that.
 
@@ -168,7 +172,13 @@ Hard things can be easy.
 
 And easy things can be really hard.
 
+But even that isn't quite right.
+
+Because I don't think the complexity of the problem is what makes something hard for me.
+
 I can jump into a codebase I don't know and happily spend hours figuring out how it works.
+
+I can take a problem where nobody really knows the answer yet and start exploring.
 
 I can build something from nothing.
 
@@ -180,17 +190,29 @@ I can jump between teams and problems and figure things out.
 
 And then I can have a message I need to respond to sitting there for days.
 
-I can forget something somebody told me five minutes ago.
-
-I can look at a few small things I need to do and not know which one I'm supposed to start with.
+I can have five small unrelated things I need to do and struggle to start any of them.
 
 I can be holding something in my head, get interrupted, and feel like the thing I was holding just disappeared.
 
 For a long time, that was confusing.
 
-If I can do the thing that looks hard, why am I struggling with the thing that looks easy?
+The complicated thing should be harder.
 
-I don't think I had a good answer for that.
+But apparently that's not how difficulty works for me.
+
+Give me one big ambiguous problem and I can create structure inside of it.
+
+I can turn it into smaller problems. I can decide how those pieces relate. I can work through them and put everything back together.
+
+Give me a bunch of unrelated things all competing for the same space in my brain and that is a completely different problem.
+
+I don't think ambiguity is the problem.
+
+I think competition might be.
+
+That feels like a pretty important distinction.
+
+For most of my life, though, I didn't have a good explanation for any of this.
 
 So mostly I just found ways to keep going.
 
@@ -226,25 +248,31 @@ Those things sounded contradictory to me at first.
 
 But the more I think about the room I was in, the more they don't.
 
-The room was quiet.
+There was one thing asking for my attention.
 
-There was one thing to do.
+I didn't have to decide which of five things mattered most.
 
-Somebody told me exactly what that thing was.
+I didn't have to hold one thing in my head while responding to another.
 
-There was a beginning and an end.
+I didn't have to keep noticing all of the other things I could be doing.
 
-When we were done, somebody else told me what came next.
+When one thing ended, somebody else handled the transition to the next thing.
 
-I didn't have to decide what deserved my attention.
+The problems themselves could still be hard.
 
-I didn't have to prioritize five things.
+What was missing was the competition around them.
 
-I didn't have to remember what I was doing while responding to something else.
+And I think that's different from needing somebody to tell me exactly what to do.
 
-A lot of the structure I normally have to create for myself was already there.
+Some of my favorite work starts with nobody knowing exactly what to do.
 
-And apparently I do pretty well in that environment.
+Give me an ambiguous problem and I'm pretty happy figuring out what to do with it.
+
+What that room gave me was one problem at a time.
+
+I could create all the structure I needed inside of that problem.
+
+I just didn't have to keep deciding which problem got to be the problem.
 
 Real life isn't like that.
 
@@ -254,7 +282,7 @@ I have a wife and two kids that I love. I have work I care about. I have a confe
 
 I want those things.
 
-Having a full life just means there isn't always one clearly defined thing happening at a time.
+Having a full life just means there isn't always one thing asking for my attention at a time.
 
 Sometimes multiple things I care about need my attention.
 
