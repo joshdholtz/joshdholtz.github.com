@@ -12,6 +12,9 @@ permissions:
 
 jobs:
   og-images:
+    # The workflow commits generated images back to the PR branch. Do not
+    # request another write-capable run for that bot-authored commit.
+    if: github.event.pull_request.head.repo.full_name == github.repository && github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
