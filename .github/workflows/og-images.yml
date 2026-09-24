@@ -1,0 +1,41 @@
+name: Verify blog OG images
+
+on:
+  pull_request:
+    paths:
+      - "_posts/**"
+      - "scripts/generate-og.rb"
+      - ".github/workflows/og-images.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  og-images:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install OG image dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick fonts-inter fonts-jetbrains-mono
+
+      - name: Generate OG images for changed posts
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          set -euo pipefail
+          git diff --name-only "$BASE_SHA"...HEAD -- '_posts/*.md' | while read -r post; do
+            [ -n "$post" ] || continue
+            ruby scripts/generate-og.rb "$post"
+          done
+
+      - name: Verify generated images are committed
+        run: |
+          if ! git diff --exit-code -- images/; then
+            echo
+            echo "OG images are out of date."
+            echo "Run: ruby scripts/generate-og.rb _posts/<post>.md"
+            exit 1
+          fi
