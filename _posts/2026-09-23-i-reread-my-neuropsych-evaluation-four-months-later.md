@@ -194,17 +194,7 @@ I don't think I had a good answer for that.
 
 So mostly I just found ways to keep going.
 
-I made routines.
-
-I wrote things down.
-
-I made tools.
-
-I automated things.
-
-I found environments where I worked well.
-
-I found work that gave me a lot of the kinds of problems I love solving.
+I made routines. I wrote things down. I made tools. I automated things. I found environments where I worked well.
 
 I didn't know I was accommodating anything.
 
@@ -212,11 +202,9 @@ I didn't know I was autistic.
 
 I didn't know I had ADHD.
 
-I just knew what worked for me.
+I just knew what worked for me and what didn't.
 
-And I knew what didn't.
-
-I was still struggling with things.
+I was still struggling.
 
 I just got pretty good at working around a lot of those struggles.
 
@@ -228,21 +216,7 @@ This might be the most interesting part of the whole thing to me now.
 
 During the actual testing, I did really well at a bunch of things I struggle with in normal life.
 
-I stayed on task throughout the appointment.
-
-I transitioned between tasks easily.
-
-I understood the instructions.
-
-My inhibition testing was normal.
-
-My task switching was normal.
-
-My sustained attention testing was mostly normal.
-
-I was cooperative and engaged.
-
-I took breaks at a normal rate.
+I stayed on task. I transitioned between tasks easily. My inhibition and task switching testing were normal. My sustained attention testing was mostly normal.
 
 Basically, I was really good at sitting in a room and doing neuropsych tests.
 
@@ -258,9 +232,7 @@ There was one thing to do.
 
 Somebody told me exactly what that thing was.
 
-There was a beginning.
-
-There was an end.
+There was a beginning and an end.
 
 When we were done, somebody else told me what came next.
 
@@ -270,8 +242,6 @@ I didn't have to prioritize five things.
 
 I didn't have to remember what I was doing while responding to something else.
 
-I didn't have to figure out when it was time to stop one thing and start another.
-
 A lot of the structure I normally have to create for myself was already there.
 
 And apparently I do pretty well in that environment.
@@ -280,21 +250,11 @@ Real life isn't like that.
 
 And I don't want it to be.
 
-I have a wife and two kids that I love.
-
-I have work I care about.
-
-I have a conference.
-
-I have friends.
-
-I have hobbies.
-
-I have side projects that I absolutely did not need to start but started anyway 😅
+I have a wife and two kids that I love. I have work I care about. I have a conference. I have friends. I have hobbies. I have side projects that I absolutely did not need to start but started anyway 😅
 
 I want those things.
 
-But having a full life means there isn't always one clearly defined thing happening at a time.
+Having a full life just means there isn't always one clearly defined thing happening at a time.
 
 Sometimes multiple things I care about need my attention.
 
@@ -308,11 +268,7 @@ Sometimes the environment is loud.
 
 Sometimes I have more things I want to do than I have capacity for.
 
-Nobody is doing anything wrong.
-
-That's just a real life with other people and things that matter to me in it.
-
-And I think that distinction is important.
+That's part of having a real life with other people and things that matter to me in it.
 
 My evaluation mentions that some of the things I was struggling with had become more noticeable as my life became more complex.
 
@@ -376,17 +332,11 @@ Now I can get everything working again.
 
 And some of that has been helpful.
 
-I've learned a lot about what drains me.
-
-I've learned a lot about sensory regulation.
-
-I've changed some routines.
-
-I've gotten better at noticing when I've had enough.
+I've learned a lot about what drains me. I've learned a lot about sensory regulation. I've changed some routines. I've gotten better at noticing when I've had enough.
 
 I've gotten better at understanding why something that looks small can sometimes feel very big.
 
-I'm still figuring all of this out.
+But I'm still figuring all of this out.
 
 And I'm still struggling.
 
@@ -404,7 +354,7 @@ I still have times where there is too much happening and I don't handle it the w
 
 I still have to recover.
 
-But I think I'm starting to look at those things differently.
+I think I'm just starting to look at those things differently.
 
 I'm very good at solving problems.
 
@@ -444,27 +394,19 @@ They still matter.
 
 But this time I found myself paying more attention to the little observations.
 
-> "He often clarified before beginning tasks."
+The fact that I kept clarifying instructions.
 
-Yep.
+That I didn't want to guess when I wasn't sure.
 
-> "He was often hesitant to guess when unsure."
+That I wore my hood through the evaluation.
 
-Also yep.
+That I asked the psychologist to talk at 1.5x speed.
 
-The hood I apparently wore through the evaluation.
+That I talked through my thought process out loud.
 
-Asking the psychologist to talk at 1.5x speed.
+That I could transition easily when somebody else provided the transition.
 
-Talking through my thought process out loud.
-
-Being polite and friendly while having "variable" social reciprocity.
-
-Getting tired as the evaluation went on.
-
-Being able to transition easily when somebody else provided the transition.
-
-And sitting down in front of a bunch of blocks and saying:
+And that when somebody sat me down in front of a bunch of blocks and gave me a problem to solve, I said:
 
 > "I could do this all day."
 
@@ -473,24 +415,6 @@ I like that one the most.
 Not because I scored well on it.
 
 Because I recognize that person.
-
-I recognize all of these versions of that person now.
-
-The one who can do some really hard things.
-
-The one who struggles with some really easy things.
-
-The one who loves solving problems.
-
-The one who gets overwhelmed.
-
-The one who can speak in front of hundreds of people but uses it as a "hack to skip small talk."
-
-The one who can move really fast and also refuse to guess.
-
-The one who built a life around things that worked without really knowing why they worked.
-
-And the one who is still figuring out what all of this means.
 
 Four months ago I read the evaluation trying to find answers.
 
