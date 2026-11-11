@@ -22,7 +22,12 @@ abort "No YAML frontmatter found in #{post_path}" unless frontmatter
 
 data = YAML.safe_load(frontmatter, permitted_classes: [Date, Time], aliases: true) || {}
 title = data["title"].to_s.strip
-image = data["image"].to_s.strip
+if data["customOgImage"]
+  puts "Skipping #{post_path}: customOgImage is set, keeping the post's own image."
+  exit 0
+end
+image_field = data["image"]
+image = (image_field.is_a?(Hash) ? image_field["path"] : image_field).to_s.strip
 abort "Missing title in #{post_path}" if title.empty?
 abort "Missing image in #{post_path}" if image.empty?
 
