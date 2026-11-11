@@ -198,7 +198,7 @@ All of it. The little details that I could never actually plan but somehow end u
 
 I know that's not how conferences work 😅
 
-Most of a conference comes together in the last few months. People decide late. That's just the shape of it, and I've known that since year one.
+Most of a conference comes together in the last few months. People decide late. I've known that since year one and you just need to "trust the process."
 
 But that's also why the tabs stay open all year.
 
