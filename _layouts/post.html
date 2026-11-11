@@ -5,7 +5,9 @@ layout: page
 <article class="post">
 
 {% if page.image and page.headerImage %}
-    <img class="title-image" src="{{ page.image }}" alt="{{ page.title }}">
+    {% assign header_src = page.image.path | default: page.image %}
+    {% assign header_alt = page.image.alt | default: page.title %}
+    <img class="title-image{% if page.headerImageWide %} wide{% endif %}" src="{{ header_src }}" alt="{{ header_alt }}">
 {% endif %}
 
 <h1 class="title">{{ page.title }}</h1>

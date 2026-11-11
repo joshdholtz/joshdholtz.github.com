@@ -2,8 +2,13 @@
 title: What Am I Going to Do With Deep Dish Swift?
 layout: post
 date: 2026-11-11 09:00:00 -0600
-image: /images/2026-11-11/what-am-i-going-to-do-with-deep-dish-swift.jpg
+image:
+    path: /images/2026-11-11/what-am-i-going-to-do-with-deep-dish-swift.png
+    width: 1728
+    height: 912
+    alt: "Pixel art of a road splitting at a giant fork at sunset. One sign points to REST, toward a hammock and a picnic blanket with deep dish pizza. The other points to KEEP GOING, toward the Chicago skyline and a stack of pizza boxes. Title: What am I going to do with Deep Dish Swift?"
 headerImage: true
+headerImageWide: true
 tags:
     - deepdishswift
     - conference
