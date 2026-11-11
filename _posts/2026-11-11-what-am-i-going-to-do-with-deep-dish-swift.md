@@ -9,6 +9,7 @@ image:
     alt: "Pixel art of a road splitting at a giant fork at sunset. One sign points to REST, toward a hammock and a picnic blanket with deep dish pizza. The other points to KEEP GOING, toward the Chicago skyline and a stack of pizza boxes. Title: What am I going to do with Deep Dish Swift?"
 headerImage: true
 headerImageWide: true
+customOgImage: true
 tags:
     - deepdishswift
     - conference
