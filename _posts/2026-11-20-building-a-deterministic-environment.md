@@ -1,6 +1,7 @@
 ---
 title: Building a Deterministic Environment… but Not for Computers
 layout: post
+image: /IMG_0231.jpeg
 date: 2026-11-20 09:00:00 -0600
 tags:
     - life
