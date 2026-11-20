@@ -15,7 +15,7 @@ description: On struggle, autism, ADHD, AI, and figuring out how to keep buildin
 disclosure: Written by me, edited with robot assistance.
 ---
 
-I recently gave the opening talk at Swift Bharat 2026 in Mumbai, India.
+I recently gave the opening talk at [Swift Bharat 2026](https://swiftbharat.org/) in Mumbai, India.
 
 The title of my talk was:
 
@@ -36,7 +36,7 @@ I had ideas. Lots of ideas.
 
 All reasonable topics. All things I genuinely care about.
 
-I've been programming since 2004, building iOS apps since 2010, and giving technical talks for years. I've worked on fastlane, spent years helping developers ship software, and given more technical talks than I can probably remember.
+I've been programming since 2004, building iOS apps since 2010, and giving technical talks for years. I've worked on [fastlane](https://fastlane.tools/), spent years helping developers ship software, organized [Deep Dish Swift](https://deepdishswift.com/), and given more technical talks than I can probably remember.
 
 This should have been easy.
 
