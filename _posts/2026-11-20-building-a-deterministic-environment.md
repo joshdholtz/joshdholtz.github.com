@@ -73,7 +73,7 @@ In October 2025, I was diagnosed with anxiety. I questioned that diagnosis becau
 
 The medication made some of the overstimulation quieter. Unfortunately, it also made just about everything else quieter. Including the things I enjoyed. Including building software.
 
-By the end of 2025 and into early 2026, I was experiencing burnout unlike anything I'd dealt with before. At one point, I spent nearly an entire week on the couch. Not building things, not playing with side projects, and not doing the things that usually make me happy. Just existing.
+By the end of 2025 and into early 2026, I was experiencing burnout unlike anything I'd dealt with before. I spent two weeks on the couch and took an additional week off work. Not building things, not playing with side projects, and not doing the things that usually make me happy. Just existing.
 
 Which is VERY unlike me.
 
