@@ -251,7 +251,9 @@ But that night, it felt like I'd never given a talk before.
 
 Everything felt new and different. Things that used to come naturally weren't coming naturally anymore, and I was incredibly frustrated.
 
-On the drive to the conference, my friend Charlie Chapman asked me how my preparation had gone the night before.
+On the drive to the conference, my friend Charlie Chapman asked me how my preparation had gone the night before. Charlie and I are almost always joking around with each other, so you'd probably expect me to give him some ridiculous answer.
+
+But this time I was completely serious.
 
 Terrible.
 
